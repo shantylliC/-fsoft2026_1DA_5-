@@ -1,0 +1,62 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="MC2lEt1ekli8I-cfOfUb">
+    <mxGraphModel dx="718" dy="592" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="va7dKTl1BIUmUGO4zR6l-14" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=12;labelBackgroundColor=none;align=center;" value="Organizador&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="170" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="va7dKTl1BIUmUGO4zR6l-17" parent="1" style="html=1;whiteSpace=wrap;" value="Sistema" vertex="1">
+          <mxGeometry height="50" width="110" x="490" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="va7dKTl1BIUmUGO4zR6l-23" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" target="va7dKTl1BIUmUGO4zR6l-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="184" y="554" as="sourcePoint" />
+            <mxPoint x="540" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="va7dKTl1BIUmUGO4zR6l-26" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="va7dKTl1BIUmUGO4zR6l-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="545" y="557" as="sourcePoint" />
+            <mxPoint x="540" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_6lF2Kd7D3lEg9_Uty6-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="185" y="240" as="sourcePoint" />
+            <mxPoint x="545" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_6lF2Kd7D3lEg9_Uty6-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1. Finaliza planeamento e pede para reservar" vertex="1">
+          <mxGeometry height="40" width="148" x="286" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="v_6lF2Kd7D3lEg9_Uty6-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="Efetuar Reserva" vertex="1">
+          <mxGeometry height="30" width="190" x="265" y="89" as="geometry" />
+        </mxCell>
+        <mxCell id="tPZtpVUQxDn6kNCNh7N5-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="637" y="265" />
+              <mxPoint x="637" y="325" />
+            </Array>
+            <mxPoint x="547" y="265" as="sourcePoint" />
+            <mxPoint x="547" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPZtpVUQxDn6kNCNh7N5-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2. Reserva as vagas de forma temporária" vertex="1">
+          <mxGeometry height="30" width="90" x="651" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="jayNSV4JtBEX_mvU2_E2-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="545" y="420" as="sourcePoint" />
+            <mxPoint x="187" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jayNSV4JtBEX_mvU2_E2-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3. Direciona para a página de pagamento" vertex="1">
+          <mxGeometry height="30" width="119" x="300.5" y="387" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
