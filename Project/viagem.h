@@ -38,8 +38,10 @@ public:
     bool mudarNotasViagem();
     bool mudarMetodoPagamento();
     bool mudarDataReserva();
-    void  mostrarNumeroReserva();
+    /*
+    void mostrarNumeroReserva();
     void novoNumeroReserva();
+    */
     bool gravarFicheiro() const;
     void estadoConfirmar();
     void estadoCancelar();

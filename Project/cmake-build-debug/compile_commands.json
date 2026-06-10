@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/. -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\_fsoft2026_1DA_5_.dir\\data.cpp.obj -c C:\\Users\\Utilizador\\CLionProjects\\-fsoft2026_1DA_5-\\Project\\data.cpp",
+  "file": "C:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/data.cpp",
+  "output": "C:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/CMakeFiles/_fsoft2026_1DA_5_.dir/data.cpp.obj"
+},
+{
+  "directory": "C:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/. -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\_fsoft2026_1DA_5_.dir\\main.cpp.obj -c C:\\Users\\Utilizador\\CLionProjects\\-fsoft2026_1DA_5-\\Project\\main.cpp",
+  "file": "C:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/main.cpp",
+  "output": "C:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/CMakeFiles/_fsoft2026_1DA_5_.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/. -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\_fsoft2026_1DA_5_.dir\\viagem.cpp.obj -c C:\\Users\\Utilizador\\CLionProjects\\-fsoft2026_1DA_5-\\Project\\viagem.cpp",
+  "file": "C:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/viagem.cpp",
+  "output": "C:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/CMakeFiles/_fsoft2026_1DA_5_.dir/viagem.cpp.obj"
+},
+{
+  "directory": "C:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/. -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\_fsoft2026_1DA_5_.dir\\numero_reserva.cpp.obj -c C:\\Users\\Utilizador\\CLionProjects\\-fsoft2026_1DA_5-\\Project\\numero_reserva.cpp",
+  "file": "C:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/numero_reserva.cpp",
+  "output": "C:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/CMakeFiles/_fsoft2026_1DA_5_.dir/numero_reserva.cpp.obj"
+}
+]

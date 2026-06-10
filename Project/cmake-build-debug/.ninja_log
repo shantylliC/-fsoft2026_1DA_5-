@@ -1,0 +1,13 @@
+# ninja log v6
+11	795	8026183019929688	CMakeFiles/_fsoft2026_1DA_5_.dir/viagem.cpp.obj	75dfc3e25199556f
+7	2042	8026174728262169	CMakeFiles/_fsoft2026_1DA_5_.dir/main.cpp.obj	4974b7246da9baca
+796	1039	8026183027779215	_fsoft2026_1DA_5_.exe	52a94cee263dc423
+5	669	8026171402286103	CMakeFiles/_fsoft2026_1DA_5_.dir/data.cpp.obj	746a3cc3d6b37bf9
+7	266	8028067710859146	C:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/cmake_install.cmake	6a83ccac3b2b0df8
+7	266	8028067710910293	build.ninja	6a83ccac3b2b0df8
+39	788	8028070419699031	CMakeFiles/_fsoft2026_1DA_5_.dir/numero_reserva.cpp.obj	1a3861d41522f658
+15	891	8028070419458887	CMakeFiles/_fsoft2026_1DA_5_.dir/data.cpp.obj	746a3cc3d6b37bf9
+31	922	8028070419627874	CMakeFiles/_fsoft2026_1DA_5_.dir/viagem.cpp.obj	75dfc3e25199556f
+28	717	8028077128266428	CMakeFiles/_fsoft2026_1DA_5_.dir/numero_reserva.cpp.obj	1a3861d41522f658
+10	2358	8028082914297841	CMakeFiles/_fsoft2026_1DA_5_.dir/main.cpp.obj	4974b7246da9baca
+2360	2679	8028082937800039	_fsoft2026_1DA_5_.exe	32cfdb8b57da566d

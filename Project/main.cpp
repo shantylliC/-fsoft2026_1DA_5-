@@ -1,6 +1,9 @@
 #include <iostream>
 #include <string>
+#include <windows.h>
+#include "viagem.h"
 #include "Data.h"
+#include "numero_reserva.h"
 
 int main() {
     int diaC, mesC, anoC;
@@ -49,7 +52,8 @@ int main() {
     SetConsoleCP(CP_UTF8);
 
     Viagem viagem;
-    viagem.novoNumeroReserva();
+    Numero_reserva nr;
+    nr.novoNumeroReserva();
 
     std::cout << "=== NOVA VIAGEM ===\n";
     std::cout << "Preencha os dados da viagem:\n\n";
@@ -126,7 +130,7 @@ int main() {
             case 4: viagem.mudarNotasViagem();       break;
             case 5: viagem.mudarMetodoPagamento();   break;
             case 6: viagem.mudarDataReserva();       break;
-            case 7: viagem.mostrarNumeroReserva();   break;
+            case 7: nr.mostrarNumeroReserva();   break;
             case 0: sair = true;                     break;
             default: std::cout << "Opcao invalida.\n";
         }

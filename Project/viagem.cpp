@@ -160,12 +160,14 @@ bool Viagem::mudarDataReserva() {
     return this->dataReserva.mudarData();
 }
 
+/*
 void Viagem::mostrarNumeroReserva(){
     std::cout << "Numero de reserva: " << this->numeroReserva << "\n";
 }
 void Viagem::novoNumeroReserva() {
     this-> numeroReserva = this->numeroReserva +1;
 }
+*/
 
 void Viagem::estadoConfirmar() {
     this->estado = 1;
