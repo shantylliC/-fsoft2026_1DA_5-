@@ -13,4 +13,6 @@ add_executable(_fsoft2026_1DA_5_
         viagem.h
         numero_reserva.h
         numero_reserva.cpp
-        )
+        alt_estados.h
+        alt_estados.cpp
+)

@@ -5,6 +5,8 @@
 #include <iostream>
 #include <string>
 #include "viagem.h"
+#include "alt_estados.h"
+#include "numero_reserva.h"
 DataViagem::DataViagem() {
     this->ano = 2026;
     this->mes = 1;
@@ -16,6 +18,8 @@ DataViagem::DataViagem() {
 bool DataViagem::mudarData() {
     int d,m,y,h,min;
     std::cout << "qual é o ano? \n";
+    std::cin.clear();
+    std::cin.ignore(1000, '\n');
     std::cin >> y;
     if (y < 2026 || y > 9999) {
         std::cout << "numero não valido\n";
@@ -24,6 +28,8 @@ bool DataViagem::mudarData() {
     this->ano = y;
 
     std::cout << "qual é o mês\n";
+    std::cin.clear();
+    std::cin.ignore(1000, '\n');
     std::cin >> m;
     if (m < 1 || m >12) {
         std::cout << "numero não valido\n";
@@ -32,6 +38,8 @@ bool DataViagem::mudarData() {
     this->mes = m;
 
     std::cout << "qual é o dia?\n";
+    std::cin.clear();
+    std::cin.ignore(1000, '\n');
     std::cin >> d;
     if (d < 1) {
         std::cout << "numero não valido\n";
@@ -40,6 +48,8 @@ bool DataViagem::mudarData() {
     this->dia = d;
 
     std::cout << "qual é a hora? \n";
+    std::cin.clear();
+    std::cin.ignore(1000, '\n');
     std::cin >> h;
     if (h < 0 || h > 24) {
         std::cout << "numero não valido\n";
@@ -48,6 +58,8 @@ bool DataViagem::mudarData() {
     this->hora = h;
 
     std::cout << "qual é os minutos? \n";
+    std::cin.clear();
+    std::cin.ignore(1000, '\n');
     std::cin >> min;
     if (min < 0 || min > 60) {
         std::cout << "numero não valido\n";
@@ -69,10 +81,8 @@ void DataViagem::printData() const {
 Viagem::Viagem() {
     this->titulo              = "Sem título";
     this->custoTotal         = 0;
-    this->estado              = 0;      // 0 = pendente
     this->notasViagem     = "";
     this->metodoPagamento = 0;      // 0 = dinheiro
-    this->numeroReserva   = 0;
 }
 
 void Viagem::print() const {
@@ -107,7 +117,12 @@ bool Viagem::mudarTitulo() {
 bool Viagem::mudarCustoTotal() {
     int novo_custo_total;
     std::cout << "Qual é o novo custo total? (apenas digitos)\n";
-    std::cin >> novo_custo_total;
+    if (!(std::cin >> novo_custo_total)) {
+        std::cin.clear();
+        std::cin.ignore(1000, '\n');
+        std::cout << "Valor inválido\n";
+        return false;
+    }
     std::cin.ignore();
     if (novo_custo_total <= 0) {
         std::cout << "O custo não pode ser negativo\n";
@@ -140,7 +155,12 @@ bool Viagem::mudarMetodoPagamento() {
     std::cout << "0 = dinheiro \n";
     std::cout << "1 = cartão \n";
     std::cout << "2 = transferência \n";
-    std::cin >> novo_metodo_de_pagamento;
+    if (!(std::cin >> novo_metodo_de_pagamento)) {
+        std::cin.clear();
+        std::cin.ignore(1000, '\n');
+        std::cout << "Valor inválido\n";
+        return false;
+    }
     if (novo_metodo_de_pagamento == 0) {
         this->metodoPagamento = novo_metodo_de_pagamento;
         return true;
@@ -158,23 +178,6 @@ bool Viagem::mudarMetodoPagamento() {
 
 bool Viagem::mudarDataReserva() {
     return this->dataReserva.mudarData();
-}
-
-/*
-void Viagem::mostrarNumeroReserva(){
-    std::cout << "Numero de reserva: " << this->numeroReserva << "\n";
-}
-void Viagem::novoNumeroReserva() {
-    this-> numeroReserva = this->numeroReserva +1;
-}
-*/
-
-void Viagem::estadoConfirmar() {
-    this->estado = 1;
-}
-
-void Viagem::estadoCancelar() {
-    this->estado = 2;
 }
 
 bool Viagem::gravarFicheiro() const {

@@ -4,7 +4,7 @@
 #ifndef _FSOFT2026_1DA_5__NUMERO_DA_RESERVA_H
 #define _FSOFT2026_1DA_5__NUMERO_DA_RESERVA_H
  class Numero_reserva {
- private:
+ protected:
      int numeroReserva;
  public:
      Numero_reserva();

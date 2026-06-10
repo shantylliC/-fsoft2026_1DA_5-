@@ -4,8 +4,12 @@
 #include "viagem.h"
 #include "Data.h"
 #include "numero_reserva.h"
+#include "alt_estados.h"
 
 int main() {
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
+
     int diaC, mesC, anoC;
     int diaS, mesS, anoS;
 
@@ -48,11 +52,10 @@ int main() {
     } catch (const DataInvalidaException& e) {
         std::cerr << e.what() << std::endl;
     }
-        SetConsoleOutputCP(CP_UTF8);
-    SetConsoleCP(CP_UTF8);
 
     Viagem viagem;
     Numero_reserva nr;
+    alt_estados e;
     nr.novoNumeroReserva();
 
     std::cout << "=== NOVA VIAGEM ===\n";
@@ -130,13 +133,13 @@ int main() {
             case 4: viagem.mudarNotasViagem();       break;
             case 5: viagem.mudarMetodoPagamento();   break;
             case 6: viagem.mudarDataReserva();       break;
-            case 7: nr.mostrarNumeroReserva();   break;
+            case 7: nr.mostrarNumeroReserva();       break;
             case 0: sair = true;                     break;
             default: std::cout << "Opcao invalida.\n";
         }
     }
 
-    viagem.estadoConfirmar();
+    e.estadoConfirmar();
     viagem.gravarFicheiro();
     std::cout << "A sair...\n";
     return 0;

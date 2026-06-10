@@ -22,5 +22,11 @@
   "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/. -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\_fsoft2026_1DA_5_.dir\\numero_reserva.cpp.obj -c C:\\Users\\Utilizador\\CLionProjects\\-fsoft2026_1DA_5-\\Project\\numero_reserva.cpp",
   "file": "C:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/numero_reserva.cpp",
   "output": "C:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/CMakeFiles/_fsoft2026_1DA_5_.dir/numero_reserva.cpp.obj"
+},
+{
+  "directory": "C:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/. -g -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles\\_fsoft2026_1DA_5_.dir\\alt_estados.cpp.obj -c C:\\Users\\Utilizador\\CLionProjects\\-fsoft2026_1DA_5-\\Project\\alt_estados.cpp",
+  "file": "C:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/alt_estados.cpp",
+  "output": "C:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/CMakeFiles/_fsoft2026_1DA_5_.dir/alt_estados.cpp.obj"
 }
 ]

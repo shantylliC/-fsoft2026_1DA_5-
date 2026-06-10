@@ -6,7 +6,8 @@
 #define FSOFT2026_1DA_5_VIAGEM_H
 #include <string>
 #include <fstream>
-
+#include "alt_estados.h"
+#include "numero_reserva.h"
 class DataViagem {
 private:
 
@@ -20,15 +21,14 @@ public:
     int hora;
     int minuto;
 };
-class Viagem {
+
+class Viagem : public alt_estados, public Numero_reserva {
 private:
     std::string titulo;
     int custoTotal;
-    unsigned char estado;                 // ex: 0=pendente, 1=confirmada, 2=cancelada
     std::string notasViagem;
     DataViagem dataReserva;
     unsigned char metodoPagamento;  // ex: 0=dinheiro, 1=cartão, 2=transferência
-    int numeroReserva;
 
 public:
     Viagem();
@@ -38,12 +38,6 @@ public:
     bool mudarNotasViagem();
     bool mudarMetodoPagamento();
     bool mudarDataReserva();
-    /*
-    void mostrarNumeroReserva();
-    void novoNumeroReserva();
-    */
     bool gravarFicheiro() const;
-    void estadoConfirmar();
-    void estadoCancelar();
 };
 #endif //FSOFT2026_1DA_5_VIAGEM_H
