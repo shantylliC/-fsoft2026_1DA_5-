@@ -4,9 +4,13 @@
 
 #include <iostream>
 #include <string>
-#include "viagem.h"
+#include "ficheiros.h"
 #include "alt_estados.h"
 #include "numero_reserva.h"
+#include <fstream>
+#include "titulo_esub.h"
+#include "pagamento.h"
+/*
 DataViagem::DataViagem() {
     this->ano = 2026;
     this->mes = 1;
@@ -75,14 +79,10 @@ void DataViagem::printData() const {
     std::cout   << " ás: " ;
     std::cout   << this->hora << ":" << this->minuto << "\n";
 }
-
+*/
 
 
 Viagem::Viagem() {
-    this->titulo              = "Sem título";
-    this->custoTotal         = 0;
-    this->notasViagem     = "";
-    this->metodoPagamento = 0;      // 0 = dinheiro
 }
 
 void Viagem::print() const {
@@ -94,92 +94,14 @@ void Viagem::print() const {
     std::cout << "Método pagamento: " << (int)this->metodoPagamento << "\n";
     std::cout << "Nº reserva:       " << this->numeroReserva << "\n";
     std::cout << "Data de reserva:  ";
-    this-> dataReserva.printData();
+    //this-> dataReserva.printData();
 }
 
-bool Viagem::mudarTitulo() {
-    std::string novo_titulo;
-    std::cout << "Qual é o novo título?\n";
-    std::cin.ignore();
-    std::getline(std::cin, novo_titulo);
-    if (novo_titulo.length() <= 2){
-        std::cout << "título muito pequeno\n";
-        return false;
-    }else if (novo_titulo.length() >= 20) {
-        std::cout << "título muito grande\n";
-        return false;
-    };
-
-    this->titulo = novo_titulo;
-    return true;
-}
-
-bool Viagem::mudarCustoTotal() {
-    int novo_custo_total;
-    std::cout << "Qual é o novo custo total? (apenas digitos)\n";
-    if (!(std::cin >> novo_custo_total)) {
-        std::cin.clear();
-        std::cin.ignore(1000, '\n');
-        std::cout << "Valor inválido\n";
-        return false;
-    }
-    std::cin.ignore();
-    if (novo_custo_total <= 0) {
-        std::cout << "O custo não pode ser negativo\n";
-        return false;
-    } else{
-        this->custoTotal = novo_custo_total;
-        return true;
-    }
-}
-
-bool Viagem::mudarNotasViagem() {
-    std::string novas_notas;
-    std::cout << "Quais são as novas notas?\n";
-    std::getline(std::cin, novas_notas);
-    if (novas_notas.length() <= 2){
-        std::cout << "Notas muito pequenas\n";
-        return false;
-    }else if (novas_notas.length() >= 500) {
-        std::cout << "Notas muito grandes\n";
-        return false;
-    };
-
-    this->notasViagem = novas_notas;
-    return true;
-}
-
-bool Viagem::mudarMetodoPagamento() {
-    int novo_metodo_de_pagamento;
-    std::cout << "Qual é o novo metodo de pagamento? (apenas digitos)\n";
-    std::cout << "0 = dinheiro \n";
-    std::cout << "1 = cartão \n";
-    std::cout << "2 = transferência \n";
-    if (!(std::cin >> novo_metodo_de_pagamento)) {
-        std::cin.clear();
-        std::cin.ignore(1000, '\n');
-        std::cout << "Valor inválido\n";
-        return false;
-    }
-    if (novo_metodo_de_pagamento == 0) {
-        this->metodoPagamento = novo_metodo_de_pagamento;
-        return true;
-    } else if (novo_metodo_de_pagamento == 1) {
-        this->metodoPagamento = novo_metodo_de_pagamento;
-        return true;
-    } else if (novo_metodo_de_pagamento == 2) {
-        this->metodoPagamento = novo_metodo_de_pagamento;
-        return true;
-    } else {
-        std::cout<<"Erro \n";
-        return false;
-    }
-}
-
+/*
 bool Viagem::mudarDataReserva() {
     return this->dataReserva.mudarData();
 }
-
+*/
 bool Viagem::gravarFicheiro() const {
     std::ofstream ficheiro("viagens.txt", std::ios::app);
     if (!ficheiro.is_open()) {
@@ -205,12 +127,12 @@ bool Viagem::gravarFicheiro() const {
     ficheiro << "Estado:           " << estado_da_via << "\n";
     ficheiro << "Notas:            " << this->notasViagem << "\n";
     ficheiro << "Metodo pagamento: " << metodo_da_via << "\n";
-    ficheiro << "Data de reserva:  "
+    ficheiro << "Data de reserva:  ";/*
         << this->dataReserva.dia << "/"
         << this->dataReserva.mes << "/"
         << this->dataReserva.ano << " as: "
         << this->dataReserva.hora << ":"
-        << this->dataReserva.minuto << "\n";
+        << this->dataReserva.minuto << "\n";*/
     ficheiro << "\n\n";
 
     ficheiro.close();

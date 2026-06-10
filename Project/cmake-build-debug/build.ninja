@@ -65,9 +65,9 @@ build CMakeFiles/_fsoft2026_1DA_5_.dir/main.cpp.obj: CXX_COMPILER___fsoft2026_1D
   OBJECT_DIR = CMakeFiles\_fsoft2026_1DA_5_.dir
   OBJECT_FILE_DIR = CMakeFiles\_fsoft2026_1DA_5_.dir
 
-build CMakeFiles/_fsoft2026_1DA_5_.dir/viagem.cpp.obj: CXX_COMPILER___fsoft2026_1DA_5__unscanned_Debug C$:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/viagem.cpp || cmake_object_order_depends_target__fsoft2026_1DA_5_
+build CMakeFiles/_fsoft2026_1DA_5_.dir/ficheiros.cpp.obj: CXX_COMPILER___fsoft2026_1DA_5__unscanned_Debug C$:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/ficheiros.cpp || cmake_object_order_depends_target__fsoft2026_1DA_5_
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\_fsoft2026_1DA_5_.dir\viagem.cpp.obj.d
+  DEP_FILE = CMakeFiles\_fsoft2026_1DA_5_.dir\ficheiros.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/.
   OBJECT_DIR = CMakeFiles\_fsoft2026_1DA_5_.dir
@@ -89,6 +89,22 @@ build CMakeFiles/_fsoft2026_1DA_5_.dir/alt_estados.cpp.obj: CXX_COMPILER___fsoft
   OBJECT_DIR = CMakeFiles\_fsoft2026_1DA_5_.dir
   OBJECT_FILE_DIR = CMakeFiles\_fsoft2026_1DA_5_.dir
 
+build CMakeFiles/_fsoft2026_1DA_5_.dir/titulo_esub.cpp.obj: CXX_COMPILER___fsoft2026_1DA_5__unscanned_Debug C$:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/titulo_esub.cpp || cmake_object_order_depends_target__fsoft2026_1DA_5_
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\_fsoft2026_1DA_5_.dir\titulo_esub.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/.
+  OBJECT_DIR = CMakeFiles\_fsoft2026_1DA_5_.dir
+  OBJECT_FILE_DIR = CMakeFiles\_fsoft2026_1DA_5_.dir
+
+build CMakeFiles/_fsoft2026_1DA_5_.dir/pagamento.cpp.obj: CXX_COMPILER___fsoft2026_1DA_5__unscanned_Debug C$:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/pagamento.cpp || cmake_object_order_depends_target__fsoft2026_1DA_5_
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\_fsoft2026_1DA_5_.dir\pagamento.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/.
+  OBJECT_DIR = CMakeFiles\_fsoft2026_1DA_5_.dir
+  OBJECT_FILE_DIR = CMakeFiles\_fsoft2026_1DA_5_.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target _fsoft2026_1DA_5_
@@ -97,7 +113,7 @@ build CMakeFiles/_fsoft2026_1DA_5_.dir/alt_estados.cpp.obj: CXX_COMPILER___fsoft
 #############################################
 # Link the executable _fsoft2026_1DA_5_.exe
 
-build _fsoft2026_1DA_5_.exe: CXX_EXECUTABLE_LINKER___fsoft2026_1DA_5__Debug CMakeFiles/_fsoft2026_1DA_5_.dir/data.cpp.obj CMakeFiles/_fsoft2026_1DA_5_.dir/main.cpp.obj CMakeFiles/_fsoft2026_1DA_5_.dir/viagem.cpp.obj CMakeFiles/_fsoft2026_1DA_5_.dir/numero_reserva.cpp.obj CMakeFiles/_fsoft2026_1DA_5_.dir/alt_estados.cpp.obj
+build _fsoft2026_1DA_5_.exe: CXX_EXECUTABLE_LINKER___fsoft2026_1DA_5__Debug CMakeFiles/_fsoft2026_1DA_5_.dir/data.cpp.obj CMakeFiles/_fsoft2026_1DA_5_.dir/main.cpp.obj CMakeFiles/_fsoft2026_1DA_5_.dir/ficheiros.cpp.obj CMakeFiles/_fsoft2026_1DA_5_.dir/numero_reserva.cpp.obj CMakeFiles/_fsoft2026_1DA_5_.dir/alt_estados.cpp.obj CMakeFiles/_fsoft2026_1DA_5_.dir/titulo_esub.cpp.obj CMakeFiles/_fsoft2026_1DA_5_.dir/pagamento.cpp.obj
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

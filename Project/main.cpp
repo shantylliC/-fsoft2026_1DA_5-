@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <windows.h>
-#include "viagem.h"
+#include "ficheiros.h"
 #include "Data.h"
 #include "numero_reserva.h"
 #include "alt_estados.h"

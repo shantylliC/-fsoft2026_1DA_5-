@@ -9,10 +9,14 @@ add_executable(_fsoft2026_1DA_5_
         data.cpp
         data.h
         main.cpp
-        viagem.cpp
-        viagem.h
+        ficheiros.cpp
+        ficheiros.h
         numero_reserva.h
         numero_reserva.cpp
         alt_estados.h
         alt_estados.cpp
+        titulo_esub.cpp
+        titulo_esub.h
+        pagamento.h
+        pagamento.cpp
 )

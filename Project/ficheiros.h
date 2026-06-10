@@ -4,10 +4,11 @@
 
 #ifndef FSOFT2026_1DA_5_VIAGEM_H
 #define FSOFT2026_1DA_5_VIAGEM_H
-#include <string>
-#include <fstream>
 #include "alt_estados.h"
 #include "numero_reserva.h"
+#include "pagamento.h"
+#include "titulo_esub.h"
+/*
 class DataViagem {
 private:
 
@@ -21,23 +22,16 @@ public:
     int hora;
     int minuto;
 };
+*/
 
-class Viagem : public alt_estados, public Numero_reserva {
+class Viagem : public alt_estados, public Numero_reserva, public Pagamento, public Titulo_esub{
 private:
-    std::string titulo;
-    int custoTotal;
-    std::string notasViagem;
-    DataViagem dataReserva;
-    unsigned char metodoPagamento;  // ex: 0=dinheiro, 1=cartão, 2=transferência
+    //DataViagem dataReserva;
 
 public:
     Viagem();
     void print() const;
-    bool mudarTitulo();
-    bool mudarCustoTotal();
-    bool mudarNotasViagem();
-    bool mudarMetodoPagamento();
-    bool mudarDataReserva();
+    //bool mudarDataReserva();
     bool gravarFicheiro() const;
 };
 #endif //FSOFT2026_1DA_5_VIAGEM_H
