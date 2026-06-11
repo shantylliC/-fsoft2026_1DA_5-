@@ -22,7 +22,7 @@ struct Calendario {
 };
 
 class Data {
-private:
+protected:
     Calendario chegada;
     Calendario saida;
     int numeroDias;
@@ -39,10 +39,11 @@ public:
     Calendario getSaida() const;
     int getNumeroDias() const;
     std::vector<std::string> getHorarios() const;
-
     void setChegada(int d, int m, int a);
     void setSaida(int d, int m, int a);
     void addHorario(std::string horario);
+    void mudarData();
+    Data();
 };
 
 #endif

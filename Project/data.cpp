@@ -1,4 +1,5 @@
 #include "Data.h"
+#include <iostream>
 
 bool Data::validarData(int d, int m, int a) const {
     if (a < 2024) return false;
@@ -62,4 +63,48 @@ void Data::setSaida(int d, int m, int a) {
 
 void Data::addHorario(std::string horario) { 
     horarios.push_back(horario); 
+}
+
+void Data::mudarData() {
+    int diaC, mesC, anoC, diaS, mesS, anoS;
+
+    std::cout << "Introduza a data de chegada (dia mes ano):\n";
+    if (!(std::cin >> diaC >> mesC >> anoC)) {
+        std::cin.clear();
+        std::cin.ignore(1000, '\n');
+        std::cout << "Valor inválido\n";
+        return;
+    }
+    std::cout << "Introduza a data de saida (dia mes ano):\n";
+    if (!(std::cin >> diaS >> mesS >> anoS)) {
+        std::cin.clear();
+        std::cin.ignore(1000, '\n');
+        std::cout << "Valor inválido\n";
+        return;
+    }
+    std::cin.ignore();
+
+    try {
+        if (!validarData(diaC, mesC, anoC)) throw DataInvalidaException("Erro: Data de chegada invalida!");
+        if (!validarData(diaS, mesS, anoS)) throw DataInvalidaException("Erro: Data de saida invalida!");
+
+        chegada = {diaC, mesC, anoC};
+        saida = {diaS, mesS, anoS};
+
+        atualizarNumeroDias();
+
+        if (numeroDias <0) {
+            throw DataInvalidaException("Erro: A data de saida antes da de chegada!\n");
+        }
+        std::cout << "Data alterada com sucesso!\n";
+    } catch (const DataInvalidaException& e) {
+        std::cerr << e.what() << "\n";
+    }
+
+}
+
+Data::Data() {
+    chegada = {1, 1, 2026};
+    saida   = {2, 1, 2026};
+    numeroDias = 1;
 }

@@ -8,30 +8,16 @@
 #include "numero_reserva.h"
 #include "pagamento.h"
 #include "titulo_esub.h"
-/*
-class DataViagem {
-private:
+#include "data.h"
 
-public:
-    DataViagem();
-    bool mudarData();
-    void printData() const;
-    int dia;
-    int mes;
-    int ano;
-    int hora;
-    int minuto;
-};
-*/
 
-class Viagem : public alt_estados, public Numero_reserva, public Pagamento, public Titulo_esub{
+class Viagem : public Data, public alt_estados, public Numero_reserva, public Pagamento, public Titulo_esub{
 private:
-    //DataViagem dataReserva;
+    Data data;
 
 public:
     Viagem();
     void print() const;
-    //bool mudarDataReserva();
     bool gravarFicheiro() const;
 };
 #endif //FSOFT2026_1DA_5_VIAGEM_H

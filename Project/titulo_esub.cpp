@@ -6,12 +6,11 @@
 #include "titulo_esub.h"
 Titulo_esub::Titulo_esub() {
     this->titulo              = "Sem título";
-    this->notasViagem     = "";
+    this->notasViagem         = "";
 }
 bool Titulo_esub::mudarTitulo() {
     std::string novo_titulo;
     std::cout << "Qual é o novo título?\n";
-    std::cin.ignore();
     std::getline(std::cin, novo_titulo);
     if (novo_titulo.length() <= 2){
         std::cout << "título muito pequeno\n";

@@ -4,85 +4,16 @@
 
 #include <iostream>
 #include <string>
+#include <fstream>
 #include "ficheiros.h"
 #include "alt_estados.h"
 #include "numero_reserva.h"
-#include <fstream>
 #include "titulo_esub.h"
 #include "pagamento.h"
-/*
-DataViagem::DataViagem() {
-    this->ano = 2026;
-    this->mes = 1;
-    this->dia = 1;
-    this->hora = 00;
-    this->minuto = 00;
-}
-
-bool DataViagem::mudarData() {
-    int d,m,y,h,min;
-    std::cout << "qual é o ano? \n";
-    std::cin.clear();
-    std::cin.ignore(1000, '\n');
-    std::cin >> y;
-    if (y < 2026 || y > 9999) {
-        std::cout << "numero não valido\n";
-        return false;
-    }
-    this->ano = y;
-
-    std::cout << "qual é o mês\n";
-    std::cin.clear();
-    std::cin.ignore(1000, '\n');
-    std::cin >> m;
-    if (m < 1 || m >12) {
-        std::cout << "numero não valido\n";
-        return false;
-    }
-    this->mes = m;
-
-    std::cout << "qual é o dia?\n";
-    std::cin.clear();
-    std::cin.ignore(1000, '\n');
-    std::cin >> d;
-    if (d < 1) {
-        std::cout << "numero não valido\n";
-        return false;
-    }
-    this->dia = d;
-
-    std::cout << "qual é a hora? \n";
-    std::cin.clear();
-    std::cin.ignore(1000, '\n');
-    std::cin >> h;
-    if (h < 0 || h > 24) {
-        std::cout << "numero não valido\n";
-        return false;
-    }
-    this->hora = h;
-
-    std::cout << "qual é os minutos? \n";
-    std::cin.clear();
-    std::cin.ignore(1000, '\n');
-    std::cin >> min;
-    if (min < 0 || min > 60) {
-        std::cout << "numero não valido\n";
-        return false;
-    }
-    this->minuto = min;
-
-    return true;
-}
-
-void DataViagem::printData() const {
-    std::cout   << this->dia << "/" << this->mes << "/" << this->ano;
-    std::cout   << " ás: " ;
-    std::cout   << this->hora << ":" << this->minuto << "\n";
-}
-*/
+#include "data.h"
 
 
-Viagem::Viagem() {
+Viagem::Viagem() : data() {
 }
 
 void Viagem::print() const {
@@ -93,16 +24,21 @@ void Viagem::print() const {
     std::cout << "Notas:            " << this->notasViagem << "\n";
     std::cout << "Método pagamento: " << (int)this->metodoPagamento << "\n";
     std::cout << "Nº reserva:       " << this->numeroReserva << "\n";
-    std::cout << "Data de reserva:  ";
-    //this-> dataReserva.printData();
+    Calendario chegada = this->data.getChegada();
+    Calendario saida = this->data.getSaida();
+    std::cout << "Chegada:  " << chegada.dia << "/" << chegada.mes << "/" << chegada.ano << "\n";
+    std::cout << "Saida:    " << saida.dia << "/" << saida.mes << "/" << saida.ano << "\n";
+    std::cout << "Duracao:  " << this->data.getNumeroDias() << " dias\n";
+
+    for (const std::string& h : this->data.getHorarios()) {
+        std::cout << " -> " << h << "\n";
+    }
 }
 
-/*
-bool Viagem::mudarDataReserva() {
-    return this->dataReserva.mudarData();
-}
-*/
 bool Viagem::gravarFicheiro() const {
+    Calendario chegada = this->data.getChegada();
+    Calendario saida = this->data.getSaida();
+
     std::ofstream ficheiro("viagens.txt", std::ios::app);
     if (!ficheiro.is_open()) {
         std::cout << "Erro ao abrir o ficheiro!\n";
@@ -127,13 +63,24 @@ bool Viagem::gravarFicheiro() const {
     ficheiro << "Estado:           " << estado_da_via << "\n";
     ficheiro << "Notas:            " << this->notasViagem << "\n";
     ficheiro << "Metodo pagamento: " << metodo_da_via << "\n";
-    ficheiro << "Data de reserva:  ";/*
-        << this->dataReserva.dia << "/"
-        << this->dataReserva.mes << "/"
-        << this->dataReserva.ano << " as: "
-        << this->dataReserva.hora << ":"
-        << this->dataReserva.minuto << "\n";*/
-    ficheiro << "\n\n";
+    ficheiro << "Data de chegada:  "
+        << chegada.dia << "/"
+        << chegada.mes << "/"
+        << chegada.ano << "\n";
+    ficheiro << "Data de saida:    "
+        << saida.dia << "/"
+        << saida.mes << "/"
+        << saida.ano << "\n";
+    ficheiro << "Duracao:          " << this->data.getNumeroDias() << " dias\n";
+
+    std::vector<std::string> horarios = this->data.getHorarios();
+    if (!horarios.empty()) {
+        ficheiro << "Atividades:\n";
+        for (const std::string& h : horarios) {
+            ficheiro << "  -> " << h << "\n";
+        }
+    }
+    ficheiro << "\n";
 
     ficheiro.close();
     std::cout << "Viagem gravada em 'viagens.txt' com sucesso!\n";
