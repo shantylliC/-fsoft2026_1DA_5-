@@ -1,0 +1,1 @@
+CMakeLists.txt not found in C:\Users\Utilizador\CLionProjects\-fsoft2026_1DA_5-\Project Select CMakeLists.txt
