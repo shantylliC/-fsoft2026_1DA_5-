@@ -3,12 +3,12 @@
 //
 #include <iostream>
 #include <string>
-#include "titulo_esub.h"
-Titulo_esub::Titulo_esub() {
+#include "../titulo_esub.h"
+Titulo_notas::Titulo_notas() {
     this->titulo              = "Sem título";
     this->notasViagem         = "";
 }
-bool Titulo_esub::mudarTitulo() {
+bool Titulo_notas::mudarTitulo() {
     std::string novo_titulo;
     std::cout << "Qual é o novo título?\n";
     std::getline(std::cin, novo_titulo);
@@ -24,7 +24,7 @@ bool Titulo_esub::mudarTitulo() {
     return true;
 }
 
-bool Titulo_esub::mudarNotasViagem() {
+bool Titulo_notas::mudarNotasViagem() {
     std::string novas_notas;
     std::cout << "Quais são as novas notas?\n";
     std::getline(std::cin, novas_notas);

@@ -26,7 +26,29 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f34c95d-8d4d-40a8-91f2-6c8999e63745" name="Changes" comment="criei a função mudarData() para poder alterar os dados depois de confirmados&#10;&#10;tenho de criar mudarHorarios para poder fazer o mesmo" />
+    <list default="true" id="3f34c95d-8d4d-40a8-91f2-6c8999e63745" name="Changes" comment="criei a função mudarData() para poder alterar os dados depois de confirmados&#10;&#10;tenho de criar mudarHorarios para poder fazer o mesmo">
+      <change afterPath="$PROJECT_DIR$/Project/numero_de_reserva/Controlador/n_reserva_controlador.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/numero_de_reserva/Controlador/n_reserva_controlador.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/numero_de_reserva/Modelo/n_reserva_modelo.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/numero_de_reserva/Modelo/n_reserva_modelo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/numero_de_reserva/View/n_reserva_view.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/numero_de_reserva/View/n_reserva_view.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/titulo_esub/Controlador/titulo_notas_controlador.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/titulo_esub/Controlador/titulo_notas_controlador.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/titulo_esub/Modelo/titulo_notas_modelo.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/titulo_esub/Modelo/titulo_notas_modelo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/titulo_esub/View/titulo_notas_view.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/titulo_esub/View/titulo_notas_view.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/ficheiros.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project/reserva.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/ficheiros.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/reserva.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/numero_reserva.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/numero_reserva.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/titulo_esub.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project/titulo_esub/titulo_esub.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/titulo_esub.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/titulo_esub/titulo_esub.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,12 +96,16 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="3EWx2vdP4c3NSNS5TxpTfFL6b4p" />
+  <component name="ProjectStatusUIService"><![CDATA[{
+  "uiKindId": "Widget"
+}]]></component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "C/C++ File.main.cpp.executor": "Debug",
     "CMake Application._fsoft2026_1DA_5_.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
@@ -106,9 +132,24 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Utilizador\CLionProjects\-fsoft2026_1DA_5-\Project\titulo_esub" />
+      <recent name="C:\Users\Utilizador\CLionProjects\-fsoft2026_1DA_5-\Project\numero_de_reserva" />
       <recent name="C:\Users\Utilizador\CLionProjects\-fsoft2026_1DA_5-\Project" />
       <recent name="C:\Users\Utilizador\CLionProjects\-fsoft2026_1DA_5-\ProjectTester" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="-fsoft2026_1DA_5-" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
+      <option name="sourceFile" value="Project\main.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ File.main.cpp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

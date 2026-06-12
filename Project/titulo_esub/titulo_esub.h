@@ -4,12 +4,12 @@
 
 #ifndef _FSOFT2026_1DA_5__TITULO_ESUB_H
 #define _FSOFT2026_1DA_5__TITULO_ESUB_H
-class Titulo_esub {
+class Titulo_notas {
 protected:
     std::string titulo;
     std::string notasViagem;
 public:
-    Titulo_esub();
+    Titulo_notas();
     bool mudarTitulo();
     bool mudarNotasViagem();
 };

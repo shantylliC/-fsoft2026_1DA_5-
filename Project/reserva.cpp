@@ -5,10 +5,10 @@
 #include <iostream>
 #include <string>
 #include <fstream>
-#include "ficheiros.h"
+#include "reserva.h"
 #include "alt_estados.h"
-#include "numero_reserva.h"
-#include "titulo_esub.h"
+#include "numero_de_reserva/numero_reserva.h"
+#include "titulo_esub/titulo_esub.h"
 #include "pagamento.h"
 #include "data.h"
 
@@ -58,10 +58,10 @@ bool Viagem::gravarFicheiro() const {
     else return false;
 
     ficheiro << "RESERVA Nº        " << this->numeroReserva << "\n \n";
-    ficheiro << "Titulo:           " << this->titulo << "\n";
-    ficheiro << "Custo total:      " << this->custoTotal << "EUR\n";
     ficheiro << "Estado:           " << estado_da_via << "\n";
+    ficheiro << "Titulo:           " << this->titulo << "\n";
     ficheiro << "Notas:            " << this->notasViagem << "\n";
+    ficheiro << "Custo total:      " << this->custoTotal << "EUR\n";
     ficheiro << "Metodo pagamento: " << metodo_da_via << "\n";
     ficheiro << "Data de chegada:  "
         << chegada.dia << "/"

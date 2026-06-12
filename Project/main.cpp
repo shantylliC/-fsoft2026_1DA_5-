@@ -1,9 +1,11 @@
 #include <iostream>
 #include <string>
 #include <windows.h>
-#include "ficheiros.h"
+#include "reserva.h"
 #include "Data.h"
-#include "numero_reserva.h"
+#include "n_reserva_modelo.h"
+#include "n_reserva_view.h"
+#include "n_reserva_controlador.h"
 #include "alt_estados.h"
 
 int main() {
