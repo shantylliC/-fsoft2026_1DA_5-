@@ -26,14 +26,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ca44560-67fe-4a6b-a092-9934c2e763eb" name="Changes" comment="últimas alterações">
-      <change beforePath="$PROJECT_DIR$/Project/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Controller.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Controller.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/View.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/View.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/data.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/data.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/main.cpp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/-fsoft2026_1DA_5-.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Datas/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/.cmake/api/v1/reply/cache-v2-94bf35139f836c4a1da8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-aac578e9c0411a1de3e2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-4255e4539724db7afb64.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f6f22219c74102c3da70.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/.cmake/api/v1/reply/error-2026-06-12T09-53-41-0945.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/.cmake/api/v1/reply/index-2026-06-12T09-50-55-0576.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/.cmake/api/v1/reply/target-fsoft2026_1DA_5-Debug-b8338e79115911790d4e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-c711a0ed160668ca5b69.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/4.2.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/4.2.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/4.2.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/4.2.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/4.2.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/4.2.2/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/4.2.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/4.2.2/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/InstallScripts.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/Controller.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/View.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/data.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/datas/Controller.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/datas/View.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/datas/data.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/datas/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +128,7 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
@@ -120,14 +145,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\diogo\CLionProjects\-fsoft2026_1DA_5-\Project\Datas" />
       <recent name="C:\Users\diogo\CLionProjects\-fsoft2026_1DA_5-\Project" />
+      <recent name="C:\Users\diogo\CLionProjects\-fsoft2026_1DA_5-\Project\Datas" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProjetoFSOFT" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
