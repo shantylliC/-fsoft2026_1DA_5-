@@ -7,7 +7,8 @@ class Controller {
 private:
     View interfaceUsuario;
 public:
-    void executarReserva();
+
+    Data obterDataValidada();
 };
 
 #endif
