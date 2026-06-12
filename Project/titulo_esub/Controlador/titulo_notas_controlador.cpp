@@ -2,6 +2,7 @@
 // Created by Utilizador on 12-Jun-26.
 //
 #include "titulo_esub_controller.h"
+#include <string>
 
 void Titulo_esub_controller::mostrar() {
     view.mostrarTitulo(modelo.getTitulo(), modelo.getNotasViagem());

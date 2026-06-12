@@ -26,28 +26,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f34c95d-8d4d-40a8-91f2-6c8999e63745" name="Changes" comment="criei a função mudarData() para poder alterar os dados depois de confirmados&#10;&#10;tenho de criar mudarHorarios para poder fazer o mesmo">
-      <change afterPath="$PROJECT_DIR$/Project/numero_de_reserva/Controlador/n_reserva_controlador.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/numero_de_reserva/Controlador/n_reserva_controlador.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/numero_de_reserva/Modelo/n_reserva_modelo.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/numero_de_reserva/Modelo/n_reserva_modelo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/numero_de_reserva/View/n_reserva_view.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/numero_de_reserva/View/n_reserva_view.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/titulo_esub/Controlador/titulo_notas_controlador.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/titulo_esub/Controlador/titulo_notas_controlador.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/titulo_esub/Modelo/titulo_notas_modelo.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/titulo_esub/Modelo/titulo_notas_modelo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/titulo_esub/View/titulo_notas_view.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/titulo_esub/View/titulo_notas_view.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3f34c95d-8d4d-40a8-91f2-6c8999e63745" name="Changes" comment="reorganizar n_reserva e titulo_notas em view modelo e controlador">
       <change beforePath="$PROJECT_DIR$/Project/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/ficheiros.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project/reserva.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/ficheiros.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/reserva.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/numero_reserva.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/numero_reserva.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/titulo_esub.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project/titulo_esub/titulo_esub.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/titulo_esub.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/titulo_esub/titulo_esub.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/titulo_esub/Controlador/titulo_notas_controlador.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project/titulo_esub/Controlador/titulo_notas_controlador.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781179096238</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="reorganizar n_reserva e titulo_notas em view modelo e controlador">
+      <option name="closed" value="true" />
+      <created>1781258635322</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1781258635322</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +233,8 @@
     <MESSAGE value="voltei &quot;Viagem&quot; por ter demasiadas funções resolvi erros em que cin era cheio de lixo e corrigi gravarFicheiro()" />
     <MESSAGE value="voltei a separar &quot;Viagem&quot; por ter demasiadas funções, falta juntar as duas formas de receber a data" />
     <MESSAGE value="criei a função mudarData() para poder alterar os dados depois de confirmados&#10;&#10;tenho de criar mudarHorarios para poder fazer o mesmo" />
-    <option name="LAST_COMMIT_MESSAGE" value="criei a função mudarData() para poder alterar os dados depois de confirmados&#10;&#10;tenho de criar mudarHorarios para poder fazer o mesmo" />
+    <MESSAGE value="reorganizar n_reserva e titulo_notas em view modelo e controlador" />
+    <option name="LAST_COMMIT_MESSAGE" value="reorganizar n_reserva e titulo_notas em view modelo e controlador" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
