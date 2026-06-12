@@ -27,49 +27,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ca44560-67fe-4a6b-a092-9934c2e763eb" name="Changes" comment="guardar configurações do clion">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Controller.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/CMakeFiles/4.2.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/CMakeFiles/4.2.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/CMakeFiles/4.2.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/CMakeFiles/4.2.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/CMakeFiles/4.2.2/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/CMakeFiles/4.2.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/CMakeFiles/4.2.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/CMakeFiles/4.2.2/CompilerIdC/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/CMakeFiles/4.2.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/CMakeFiles/4.2.2/CompilerIdCXX/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/CMakeFiles/InstallScripts.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/Controller.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/View.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/data.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/compile_commands.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Datas/cmake-build-debug/fsoft2026_1DA_5.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/compile_commands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/fsoft2026_1DA_5.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/fsoft2026_1DA_5.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/main.cpp" beforeDir="false" />
-    </list>
+    <list default="true" id="4ca44560-67fe-4a6b-a092-9934c2e763eb" name="Changes" comment="guardar configurações do clion" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -229,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781288882815</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="guardar configurações do clion">
+      <option name="closed" value="true" />
+      <created>1781294565099</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1781294565099</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
