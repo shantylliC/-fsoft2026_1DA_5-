@@ -1,9 +1,9 @@
 [
 {
   "directory": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\fsoft2026_1DA_5.dir\\Datas\\main.cpp.obj -c C:\\Users\\diogo\\CLionProjects\\-fsoft2026_1DA_5-\\Project\\Datas\\main.cpp",
-  "file": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/Datas/main.cpp",
-  "output": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/Datas/main.cpp.obj"
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\fsoft2026_1DA_5.dir\\organizador\\main.cpp.obj -c C:\\Users\\diogo\\CLionProjects\\-fsoft2026_1DA_5-\\Project\\organizador\\main.cpp",
+  "file": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/organizador/main.cpp",
+  "output": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/organizador/main.cpp.obj"
 },
 {
   "directory": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug",
@@ -22,5 +22,41 @@
   "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\fsoft2026_1DA_5.dir\\Datas\\Controller.cpp.obj -c C:\\Users\\diogo\\CLionProjects\\-fsoft2026_1DA_5-\\Project\\Datas\\Controller.cpp",
   "file": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/Datas/Controller.cpp",
   "output": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/Datas/Controller.cpp.obj"
+},
+{
+  "directory": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\fsoft2026_1DA_5.dir\\organizador\\AutenticacaoController\\AutenticacaoController.cpp.obj -c C:\\Users\\diogo\\CLionProjects\\-fsoft2026_1DA_5-\\Project\\organizador\\AutenticacaoController\\AutenticacaoController.cpp",
+  "file": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/organizador/AutenticacaoController/AutenticacaoController.cpp",
+  "output": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/organizador/AutenticacaoController/AutenticacaoController.cpp.obj"
+},
+{
+  "directory": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\fsoft2026_1DA_5.dir\\organizador\\AutenticacaoService\\AutenticacaoService.cpp.obj -c C:\\Users\\diogo\\CLionProjects\\-fsoft2026_1DA_5-\\Project\\organizador\\AutenticacaoService\\AutenticacaoService.cpp",
+  "file": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/organizador/AutenticacaoService/AutenticacaoService.cpp",
+  "output": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/organizador/AutenticacaoService/AutenticacaoService.cpp.obj"
+},
+{
+  "directory": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\fsoft2026_1DA_5.dir\\organizador\\Login\\Login.cpp.obj -c C:\\Users\\diogo\\CLionProjects\\-fsoft2026_1DA_5-\\Project\\organizador\\Login\\Login.cpp",
+  "file": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/organizador/Login/Login.cpp",
+  "output": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/organizador/Login/Login.cpp.obj"
+},
+{
+  "directory": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\fsoft2026_1DA_5.dir\\organizador\\LoginRepository\\LoginRepository.cpp.obj -c C:\\Users\\diogo\\CLionProjects\\-fsoft2026_1DA_5-\\Project\\organizador\\LoginRepository\\LoginRepository.cpp",
+  "file": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/organizador/LoginRepository/LoginRepository.cpp",
+  "output": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/organizador/LoginRepository/LoginRepository.cpp.obj"
+},
+{
+  "directory": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\fsoft2026_1DA_5.dir\\organizador\\LoginView\\LoginView.cpp.obj -c C:\\Users\\diogo\\CLionProjects\\-fsoft2026_1DA_5-\\Project\\organizador\\LoginView\\LoginView.cpp",
+  "file": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/organizador/LoginView/LoginView.cpp",
+  "output": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/organizador/LoginView/LoginView.cpp.obj"
+},
+{
+  "directory": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\fsoft2026_1DA_5.dir\\organizador\\Pessoa\\Pessoa.cpp.obj -c C:\\Users\\diogo\\CLionProjects\\-fsoft2026_1DA_5-\\Project\\organizador\\Pessoa\\Pessoa.cpp",
+  "file": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/organizador/Pessoa/Pessoa.cpp",
+  "output": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/organizador/Pessoa/Pessoa.cpp.obj"
 }
 ]
