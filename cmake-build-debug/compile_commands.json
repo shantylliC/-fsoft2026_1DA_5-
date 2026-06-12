@@ -1,0 +1,62 @@
+[
+{
+  "directory": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\ProjetoViagens.dir\\Project\\Data.cpp.obj -c C:\\Users\\HQCamachoPC\\CLionProjects\\FSOFT\\2-iteraçao\\Project\\Data.cpp",
+  "file": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/Project/Data.cpp",
+  "output": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug/CMakeFiles/ProjetoViagens.dir/Project/Data.cpp.obj"
+},
+{
+  "directory": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\ProjetoViagens.dir\\Main.cpp.obj -c C:\\Users\\HQCamachoPC\\CLionProjects\\FSOFT\\2-iteraçao\\Main.cpp",
+  "file": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/Main.cpp",
+  "output": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug/CMakeFiles/ProjetoViagens.dir/Main.cpp.obj"
+},
+{
+  "directory": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\ProjetoViagens.dir\\Project\\Localidade.cpp.obj -c C:\\Users\\HQCamachoPC\\CLionProjects\\FSOFT\\2-iteraçao\\Project\\Localidade.cpp",
+  "file": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/Project/Localidade.cpp",
+  "output": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug/CMakeFiles/ProjetoViagens.dir/Project/Localidade.cpp.obj"
+},
+{
+  "directory": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\ProjetoViagens.dir\\Project\\Pais.cpp.obj -c C:\\Users\\HQCamachoPC\\CLionProjects\\FSOFT\\2-iteraçao\\Project\\Pais.cpp",
+  "file": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/Project/Pais.cpp",
+  "output": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug/CMakeFiles/ProjetoViagens.dir/Project/Pais.cpp.obj"
+},
+{
+  "directory": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\ProjetoViagens.dir\\Project\\Cidade.cpp.obj -c C:\\Users\\HQCamachoPC\\CLionProjects\\FSOFT\\2-iteraçao\\Project\\Cidade.cpp",
+  "file": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/Project/Cidade.cpp",
+  "output": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug/CMakeFiles/ProjetoViagens.dir/Project/Cidade.cpp.obj"
+},
+{
+  "directory": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\ProjetoViagens.dir\\Project\\Atividade.cpp.obj -c C:\\Users\\HQCamachoPC\\CLionProjects\\FSOFT\\2-iteraçao\\Project\\Atividade.cpp",
+  "file": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/Project/Atividade.cpp",
+  "output": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug/CMakeFiles/ProjetoViagens.dir/Project/Atividade.cpp.obj"
+},
+{
+  "directory": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\ProjetoViagens.dir\\Project\\Financeiro.cpp.obj -c C:\\Users\\HQCamachoPC\\CLionProjects\\FSOFT\\2-iteraçao\\Project\\Financeiro.cpp",
+  "file": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/Project/Financeiro.cpp",
+  "output": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug/CMakeFiles/ProjetoViagens.dir/Project/Financeiro.cpp.obj"
+},
+{
+  "directory": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\ProjetoViagens.dir\\Project\\RepositorioCatalogo.cpp.obj -c C:\\Users\\HQCamachoPC\\CLionProjects\\FSOFT\\2-iteraçao\\Project\\RepositorioCatalogo.cpp",
+  "file": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/Project/RepositorioCatalogo.cpp",
+  "output": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug/CMakeFiles/ProjetoViagens.dir/Project/RepositorioCatalogo.cpp.obj"
+},
+{
+  "directory": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\ProjetoViagens.dir\\Project\\Roteiro.cpp.obj -c C:\\Users\\HQCamachoPC\\CLionProjects\\FSOFT\\2-iteraçao\\Project\\Roteiro.cpp",
+  "file": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/Project/Roteiro.cpp",
+  "output": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug/CMakeFiles/ProjetoViagens.dir/Project/Roteiro.cpp.obj"
+},
+{
+  "directory": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\ProjetoViagens.dir\\Project\\main.cpp.obj -c C:\\Users\\HQCamachoPC\\CLionProjects\\FSOFT\\2-iteraçao\\Project\\main.cpp",
+  "file": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/Project/main.cpp",
+  "output": "C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug/CMakeFiles/ProjetoViagens.dir/Project/main.cpp.obj"
+}
+]
