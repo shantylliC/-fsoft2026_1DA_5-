@@ -1,0 +1,12 @@
+# ninja log v7
+19	805	8029594413105418	CMakeFiles/fsoft2026_1DA_5.dir/data.cpp.obj	c1ea3523748236fb
+8	838	8029594412997158	CMakeFiles/fsoft2026_1DA_5.dir/main.cpp.obj	71ab6807d6f7a5ac
+27	840	8029594413186979	CMakeFiles/fsoft2026_1DA_5.dir/View.cpp.obj	4ca7d06dd2d3b9c
+37	889	8029594413285423	CMakeFiles/fsoft2026_1DA_5.dir/Controller.cpp.obj	63dcedc547e0e4fe
+578	751	8029602267558352	fsoft2026_1DA_5.exe	4a360045667616f8
+4	317	8029610554243040	build.ninja	3fa02f589a82eee1
+4	317	8029610554140668	C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/cmake_install.cmake	3fa02f589a82eee1
+44	720	8029600261449856	CMakeFiles/fsoft2026_1DA_5.dir/Datas/main.cpp.obj	4452270032093e79
+15	702	8029601827046949	CMakeFiles/fsoft2026_1DA_5.dir/Datas/View.cpp.obj	cb81db119b4ee2f3
+24	739	8029601827129094	CMakeFiles/fsoft2026_1DA_5.dir/Datas/Controller.cpp.obj	39acc8e07296e08b
+7	577	8029602261835798	CMakeFiles/fsoft2026_1DA_5.dir/Datas/data.cpp.obj	e0d273a62abdb4a6

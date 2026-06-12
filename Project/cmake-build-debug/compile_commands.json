@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\fsoft2026_1DA_5.dir\\Datas\\main.cpp.obj -c C:\\Users\\diogo\\CLionProjects\\-fsoft2026_1DA_5-\\Project\\Datas\\main.cpp",
+  "file": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/Datas/main.cpp",
+  "output": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/Datas/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\fsoft2026_1DA_5.dir\\Datas\\data.cpp.obj -c C:\\Users\\diogo\\CLionProjects\\-fsoft2026_1DA_5-\\Project\\Datas\\data.cpp",
+  "file": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/Datas/data.cpp",
+  "output": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/Datas/data.cpp.obj"
+},
+{
+  "directory": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\fsoft2026_1DA_5.dir\\Datas\\View.cpp.obj -c C:\\Users\\diogo\\CLionProjects\\-fsoft2026_1DA_5-\\Project\\Datas\\View.cpp",
+  "file": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/Datas/View.cpp",
+  "output": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/Datas/View.cpp.obj"
+},
+{
+  "directory": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -g -fdiagnostics-color=always -o CMakeFiles\\fsoft2026_1DA_5.dir\\Datas\\Controller.cpp.obj -c C:\\Users\\diogo\\CLionProjects\\-fsoft2026_1DA_5-\\Project\\Datas\\Controller.cpp",
+  "file": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/Datas/Controller.cpp",
+  "output": "C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/CMakeFiles/fsoft2026_1DA_5.dir/Datas/Controller.cpp.obj"
+}
+]

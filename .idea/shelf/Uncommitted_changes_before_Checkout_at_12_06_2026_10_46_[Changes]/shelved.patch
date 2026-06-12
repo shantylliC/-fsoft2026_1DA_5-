@@ -1,0 +1,296 @@
+Index: Project/CMakeLists.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>add_executable(fsoft2026_1DA_5\r\n        main.cpp\r\n        data.cpp\r\n        View.cpp\r\n        Controller.cpp\r\n)
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Project/CMakeLists.txt b/Project/CMakeLists.txt
+--- a/Project/CMakeLists.txt	(revision 72417e795c18f4e80afa2cc4e6cde528f562e949)
++++ b/Project/CMakeLists.txt	(date 1781257411452)
+@@ -1,6 +1,6 @@
+ add_executable(fsoft2026_1DA_5
+         main.cpp
+-        data.cpp
+-        View.cpp
++        Datas/data.cpp
++        Datas/View.cpp
+         Controller.cpp
+ )
+\ No newline at end of file
+Index: Project/Controller.h
+===================================================================
+diff --git a/Project/Controller.h b/Project/Controller.h
+deleted file mode 100644
+--- a/Project/Controller.h	(revision 72417e795c18f4e80afa2cc4e6cde528f562e949)
++++ /dev/null	(revision 72417e795c18f4e80afa2cc4e6cde528f562e949)
+@@ -1,13 +0,0 @@
+-#ifndef CONTROLLER_H
+-#define CONTROLLER_H
+-#include "View.h"
+-#include "data.h"
+-
+-class Controller {
+-private:
+-    View interfaceUsuario;
+-public:
+-    void executarReserva();
+-};
+-
+-#endif
+\ No newline at end of file
+Index: Project/Controller.cpp
+===================================================================
+diff --git a/Project/Controller.cpp b/Project/Controller.cpp
+deleted file mode 100644
+--- a/Project/Controller.cpp	(revision 72417e795c18f4e80afa2cc4e6cde528f562e949)
++++ /dev/null	(revision 72417e795c18f4e80afa2cc4e6cde528f562e949)
+@@ -1,24 +0,0 @@
+-#include "Controller.h"
+-
+-void Controller::executarReserva() {
+-    DadosBrutos dados = interfaceUsuario.pedirDatasViagem();
+-
+-    try {
+-        Data viagem(dados.diaC, dados.mesC, dados.anoC, dados.diaS, dados.mesS, dados.anoS);
+-
+-        while (interfaceUsuario.perguntarMaisHorarios()) {
+-            std::string hor = interfaceUsuario.pedirHorario();
+-            viagem.addHorario(hor);
+-        }
+-
+-        Calendario ch = viagem.getChegada();
+-        Calendario sa = viagem.getSaida();
+-        std::string strChegada = std::to_string(ch.dia) + "/" + std::to_string(ch.mes) + "/" + std::to_string(ch.ano);
+-        std::string strSaida = std::to_string(sa.dia) + "/" + std::to_string(sa.mes) + "/" + std::to_string(sa.ano);
+-
+-        interfaceUsuario.mostrarSucesso(strChegada, strSaida, viagem.getNumeroDias(), viagem.getHorarios());
+-
+-    } catch (const DataInvalidaException& e) {
+-        interfaceUsuario.mostrarErro(e.what());
+-    }
+-}
+\ No newline at end of file
+Index: Project/View.cpp
+===================================================================
+diff --git a/Project/View.cpp b/Project/View.cpp
+deleted file mode 100644
+--- a/Project/View.cpp	(revision 72417e795c18f4e80afa2cc4e6cde528f562e949)
++++ /dev/null	(revision 72417e795c18f4e80afa2cc4e6cde528f562e949)
+@@ -1,40 +0,0 @@
+-#include "View.h"
+-
+-DadosBrutos View::pedirDatasViagem() {
+-    DadosBrutos dados;
+-    std::cout << "Introduza a data de chegada (dia mes ano):" << std::endl;
+-    std::cin >> dados.diaC >> dados.mesC >> dados.anoC;
+-    std::cout << "Introduza a data de Saida (dia mes ano):" << std::endl;
+-    std::cin >> dados.diaS >> dados.mesS >> dados.anoS;
+-    std::cin.ignore();
+-    return dados;
+-}
+-
+-void View::mostrarErro(const std::string& erro) {
+-    std::cerr << erro << std::endl;
+-}
+-
+-bool View::perguntarMaisHorarios() {
+-    std::string opcao;
+-    std::cout << "Deseja adicionar um horario? (s/n):" << std::endl;
+-    std::getline(std::cin, opcao);
+-    return (opcao == "s" || opcao == "S");
+-}
+-
+-std::string View::pedirHorario() {
+-    std::string horario;
+-    std::cout << "Introduza o horario e atividade:" << std::endl;
+-    std::getline(std::cin, horario);
+-    return horario;
+-}
+-
+-void View::mostrarSucesso(const std::string& ch, const std::string& sa, int dias, const std::vector<std::string>& horarios) {
+-    std::cout << "\n--- DADOS DA VIAGEM ---" << std::endl;
+-    std::cout << "Data de Chegada: " << ch << std::endl;
+-    std::cout << "Data de Saida: " << sa << std::endl;
+-    std::cout << "Duracao: " << dias << " dias" << std::endl;
+-    std::cout << "Horarios planeados:" << std::endl;
+-    for (const std::string& h : horarios) {
+-        std::cout << " -> " << h << std::endl;
+-    }
+-}
+Index: Project/data.cpp
+===================================================================
+diff --git a/Project/data.cpp b/Project/data.cpp
+deleted file mode 100644
+--- a/Project/data.cpp	(revision 72417e795c18f4e80afa2cc4e6cde528f562e949)
++++ /dev/null	(revision 72417e795c18f4e80afa2cc4e6cde528f562e949)
+@@ -1,65 +0,0 @@
+-#include "Data.h"
+-
+-bool Data::validarData(int d, int m, int a) const {
+-    if (a < 2024) return false;
+-    if (m < 1 || m > 12) return false;
+-    if (d < 1 || d > 31) return false;
+-    
+-    if ((m == 4 || m == 6 || m == 9 || m == 11) && d > 30) return false;
+-    
+-    if (m == 2) {
+-        bool bissexto = (a % 4 == 0 && a % 100 != 0) || (a % 400 == 0);
+-        if (bissexto && d > 29) return false;
+-        if (!bissexto && d > 28) return false;
+-    }
+-    return true;
+-}
+-
+-int Data::dataParaDias(int d, int m, int a) const {
+-    if (m < 3) {
+-        m += 12;
+-        a--;
+-    }
+-    return 365 * a + a / 4 - a / 100 + a / 400 + (153 * m + 2) / 5 + d;
+-}
+-
+-void Data::atualizarNumeroDias() {
+-    int diasC = dataParaDias(chegada.dia, chegada.mes, chegada.ano);
+-    int diasS = dataParaDias(saida.dia, saida.mes, saida.ano);
+-    numeroDias = diasS - diasC;
+-}
+-
+-Data::Data(int diaC, int mesC, int anoC, int diaS, int mesS, int anoS) {
+-    if (!validarData(diaC, mesC, anoC)) throw DataInvalidaException("Erro: Data de chegada invalida!");
+-    if (!validarData(diaS, mesS, anoS)) throw DataInvalidaException("Erro: Data de saida invalida!");
+-
+-    chegada = {diaC, mesC, anoC};
+-    saida = {diaS, mesS, anoS};
+-    
+-    atualizarNumeroDias();
+-    
+-    if (numeroDias < 0) throw DataInvalidaException("Erro: A data de saida nao pode ser anterior a data de chegada!");
+-}
+-
+-Calendario Data::getChegada() const { return chegada; }
+-Calendario Data::getSaida() const { return saida; }
+-int Data::getNumeroDias() const { return numeroDias; }
+-std::vector<std::string> Data::getHorarios() const { return horarios; }
+-
+-void Data::setChegada(int d, int m, int a) {
+-    if (!validarData(d, m, a)) throw DataInvalidaException("Erro: Nova data de chegada invalida!");
+-    chegada = {d, m, a};
+-    atualizarNumeroDias();
+-    if (numeroDias < 0) throw DataInvalidaException("Erro: A data de saida nao pode ser anterior a data de chegada!");
+-}
+-
+-void Data::setSaida(int d, int m, int a) {
+-    if (!validarData(d, m, a)) throw DataInvalidaException("Erro: Nova data de saida invalida!");
+-    saida = {d, m, a};
+-    atualizarNumeroDias();
+-    if (numeroDias < 0) throw DataInvalidaException("Erro: A data de saida nao pode ser anterior a data de chegada!");
+-}
+-
+-void Data::addHorario(std::string horario) { 
+-    horarios.push_back(horario); 
+-}
+\ No newline at end of file
+Index: Project/data.h
+===================================================================
+diff --git a/Project/data.h b/Project/data.h
+deleted file mode 100644
+--- a/Project/data.h	(revision 72417e795c18f4e80afa2cc4e6cde528f562e949)
++++ /dev/null	(revision 72417e795c18f4e80afa2cc4e6cde528f562e949)
+@@ -1,48 +0,0 @@
+-#ifndef DATA_H
+-#define DATA_H
+-
+-#include <string>
+-#include <vector>
+-#include <stdexcept>
+-
+-class DataInvalidaException : public std::exception {
+-private:
+-    std::string mensagem;
+-public:
+-    DataInvalidaException(std::string msg) : mensagem(msg) {}
+-    const char* what() const noexcept override {
+-        return mensagem.c_str();
+-    }
+-};
+-
+-struct Calendario {
+-    int dia;
+-    int mes;
+-    int ano;
+-};
+-
+-class Data {
+-private:
+-    Calendario chegada;
+-    Calendario saida;
+-    int numeroDias;
+-    std::vector<std::string> horarios;
+-
+-    bool validarData(int d, int m, int a) const;
+-    int dataParaDias(int d, int m, int a) const;
+-    void atualizarNumeroDias();
+-
+-public:
+-    Data(int diaC, int mesC, int anoC, int diaS, int mesS, int anoS);
+-
+-    Calendario getChegada() const;
+-    Calendario getSaida() const;
+-    int getNumeroDias() const;
+-    std::vector<std::string> getHorarios() const;
+-
+-    void setChegada(int d, int m, int a);
+-    void setSaida(int d, int m, int a);
+-    void addHorario(std::string horario);
+-};
+-
+-#endif
+\ No newline at end of file
+Index: Project/main.cpp
+===================================================================
+diff --git a/Project/main.cpp b/Project/main.cpp
+deleted file mode 100644
+--- a/Project/main.cpp	(revision 72417e795c18f4e80afa2cc4e6cde528f562e949)
++++ /dev/null	(revision 72417e795c18f4e80afa2cc4e6cde528f562e949)
+@@ -1,7 +0,0 @@
+-#include "Controller.h"
+-
+-int main() {
+-    Controller sistemaViagens;
+-    sistemaViagens.executarReserva();
+-    return 0;
+-}
+\ No newline at end of file
+Index: Project/View.h
+===================================================================
+diff --git a/Project/View.h b/Project/View.h
+deleted file mode 100644
+--- a/Project/View.h	(revision 72417e795c18f4e80afa2cc4e6cde528f562e949)
++++ /dev/null	(revision 72417e795c18f4e80afa2cc4e6cde528f562e949)
+@@ -1,21 +0,0 @@
+-#ifndef VIEW_H
+-#define VIEW_H
+-#include <iostream>
+-#include <string>
+-#include <vector>
+-
+-struct DadosBrutos {
+-    int diaC, mesC, anoC;
+-    int diaS, mesS, anoS;
+-};
+-
+-class View {
+-public:
+-    DadosBrutos pedirDatasViagem();
+-    void mostrarErro(const std::string& erro);
+-    void mostrarSucesso(const std::string& ch, const std::string& sa, int dias, const std::vector<std::string>& horarios);
+-    bool perguntarMaisHorarios();
+-    std::string pedirHorario();
+-};
+-
+-#endif
+\ No newline at end of file
+diff --git a/Project/README.md b/Project/Datas/README.md
+rename from Project/README.md
+rename to Project/Datas/README.md
