@@ -1,6 +1,7 @@
 //
 // Created by Utilizador on 12-Jun-26.
 //
+#include "numero_de_reserva/Controlador/n_reserva_controlador.h"
 void Numero_reserva_controller::mostrar() {
     view.mostrarNumeroReserva(modelo.getNumeroReserva());
 }

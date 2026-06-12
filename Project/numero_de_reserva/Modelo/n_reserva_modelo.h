@@ -2,16 +2,16 @@
 // Created by Utilizador on 12-Jun-26.
 //
 
-#ifndef FSOFT2026_1DA_5_NUMERO_RESERVA_H
-#define FSOFT2026_1DA_5_NUMERO_RESERVA_H
+#ifndef FSOFT2026_1DA_5_N_RESERVA_MODELO_H
+#define FSOFT2026_1DA_5_N_RESERVA_MODELO_H
 
-class Numero_reserva {
+class Numero_reserva_modelo {
 protected:
     int numeroReserva;
 public:
-    Numero_reserva();
+    Numero_reserva_modelo();
     int getNumeroReserva() const;
     void incrementar();
 };
 
-#endif //FSOFT2026_1DA_5_NUMERO_RESERVA_H
+#endif //FSOFT2026_1DA_5_N_RESERVA_MODELO_H

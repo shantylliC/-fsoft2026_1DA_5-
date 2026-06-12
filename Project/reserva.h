@@ -4,14 +4,15 @@
 
 #ifndef FSOFT2026_1DA_5_VIAGEM_H
 #define FSOFT2026_1DA_5_VIAGEM_H
-#include "alt_estados.h"
-#include "numero_de_reserva/numero_reserva.h"
+#include "alt_estados/Modelo/alt_estados_modelo.h"
+#include "alt_estados/Modelo/alt_estados_controler.h"
+#include "numero_de_reserva/Modelo/n_reserva_modelo.h"
 #include "pagamento.h"
-#include "titulo_esub/titulo_esub.h"
+#include "titulo_notas/titulo_esub.h"
 #include "data.h"
 
 
-class Viagem : public Data, public alt_estados, public Numero_reserva, public Pagamento, public Titulo_notas{
+class Viagem : public Data, public alt_estados, public Numero_reserva_modelo, public Pagamento, public Titulo_notas_modelos{
 private:
     Data data;
 

@@ -8,7 +8,7 @@
 #include "reserva.h"
 #include "alt_estados.h"
 #include "numero_de_reserva/numero_reserva.h"
-#include "titulo_esub/titulo_esub.h"
+#include "titulo_notas/titulo_esub.h"
 #include "pagamento.h"
 #include "data.h"
 

@@ -2,15 +2,15 @@
 // Created by Utilizador on 12-Jun-26.
 //
 
-#ifndef FSOFT2026_1DA_5_NUMERO_RESERVA_H
-#define FSOFT2026_1DA_5_NUMERO_RESERVA_H
+#ifndef FSOFT2026_1DA_5_N_RESERVA_CONTROLADOR_H
+#define FSOFT2026_1DA_5_N_RESERVA_CONTROLADOR_H
 
-#include "numero_reserva.h"
-#include "numero_reserva_view.h"
+#include "numero_de_reserva/Modelo/n_reserva_modelo.h"
+#include "numero_de_reserva/View/n_reserva_view.h"
 
 class Numero_reserva_controller {
 private:
-    Numero_reserva modelo;
+    Numero_reserva_modelo modelo;
     Numero_reserva_view view;
 public:
     void mostrar();
@@ -18,4 +18,4 @@ public:
     int getNumeroAtual() const;
 };
 
-#endif //FSOFT2026_1DA_5_NUMERO_RESERVA_H
+#endif //FSOFT2026_1DA_5_N_RESERVA_CONTROLADOR_H

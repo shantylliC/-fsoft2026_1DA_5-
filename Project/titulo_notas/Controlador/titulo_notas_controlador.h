@@ -5,10 +5,10 @@
 #ifndef FSOFT2026_1DA_5_TITULO_NOTAS_CONTROLADOR_H
 #define FSOFT2026_1DA_5_TITULO_NOTAS_CONTROLADOR_H
 
-class Titulo_esub_controller {
+class Titulo_notas_controlador {
 private:
-    Titulo_esub modelo;
-    Titulo_esub_view view;
+    Titulo_notas_modelo modelo;
+    Titulo_notas_view view;
 public:
     void mostrar();
     void mudarTitulo();

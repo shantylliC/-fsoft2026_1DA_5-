@@ -1,15 +1,14 @@
 #include <iostream>
 #include <string>
 #include <windows.h>
-#include "reserva.h"
 #include "Data.h"
 #include "numero_de_reserva/Modelo/n_reserva_modelo.h"
 #include "numero_de_reserva/View/n_reserva_view.h"
 #include "numero_de_reserva/Controlador/n_reserva_controlador.h"
-#include "titulo_esub/Modelo/titulo_notas_modelo.h"
-#include "titulo_esub/View/titulo_notas_view.h"
-#include "titulo_esub/Controlador/titulo_notas_controlador.h"
-#include "alt_estados.h"
+#include "titulo_notas/Modelo/titulo_notas_modelo.h"
+#include "titulo_notas/View/titulo_notas_view.h"
+#include "titulo_notas/Controlador/titulo_notas_controlador.h"
+#include "alt_estados/alt_estados.h"
 
 int main() {
     SetConsoleOutputCP(CP_UTF8);
