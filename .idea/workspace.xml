@@ -28,26 +28,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f34c95d-8d4d-40a8-91f2-6c8999e63745" name="Changes" comment="correção de erros">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/alt_estados/Modelo/alt_estados_modelo.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/alt_estados/Modelo/alt_estados_modelo.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/4.1.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/4.1.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/4.1.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/4.1.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/4.1.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/4.1.2/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/4.1.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/4.1.2/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/_fsoft2026_1DA_5_.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Project/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/reserva.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project/reserva.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/reserva.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/reserva.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/titulo_notas/Controlador/titulo_notas_controlador.h" beforeDir="false" afterPath="$PROJECT_DIR$/Project/titulo_notas/Controlador/titulo_notas_controlador.h" afterDir="false" />
-    </list>
+    <list default="true" id="3f34c95d-8d4d-40a8-91f2-6c8999e63745" name="Changes" comment="correção de erros" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +159,7 @@
       <workItem from="1781275778118" duration="2426000" />
       <workItem from="1781280180124" duration="6468000" />
       <workItem from="1781286730460" duration="942000" />
-      <workItem from="1781358237806" duration="3279000" />
+      <workItem from="1781358237806" duration="3760000" />
     </task>
     <task id="LOCAL-00001" summary="tudo de viagem .h e .cpp">
       <option name="closed" value="true" />
@@ -268,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781287064303</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="correção de erros">
+      <option name="closed" value="true" />
+      <created>1781363125222</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1781363125222</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
