@@ -1,3 +1,0 @@
-C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug/CMakeFiles/ProjetoViagens.dir
-C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/HQCamachoPC/CLionProjects/FSOFT/2-iteraçao/cmake-build-debug/CMakeFiles/rebuild_cache.dir
