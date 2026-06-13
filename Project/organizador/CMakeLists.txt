@@ -11,7 +11,13 @@ add_executable(organizador
         LoginRepository/LoginRepository.cpp
         AutenticacaoService/AutenticacaoService.cpp
         AutenticacaoController/AutenticacaoController.cpp
-        LoginView/LoginView.cpp)
+        LoginView/LoginView.cpp
+        "../../ProjectTester/Organizador - testes/main_tests.cpp"
+        "../../ProjectTester/Organizador - testes/PessoaTest.cpp"
+        "../../ProjectTester/Organizador - testes/OrganizadorTest.cpp"
+        "../../ProjectTester/Organizador - testes/LoginTest.cpp"
+        "../../ProjectTester/Organizador - testes/AutenticacaoServiceTest.cpp"
+)
 
 target_include_directories(organizador PRIVATE headers)
 
