@@ -1,0 +1,12 @@
+# ninja log v7
+30	560	8030612233790836	CMakeFiles/TravelTester.dir/C_/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/Project/Datas/data.cpp.obj	25f17507560c721d
+17	1443	8030612233665242	googletest-main/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	26ac282e1e7b8d29
+36	1988	8030612233856410	googletest-main/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	ac417406af973ced
+11	2980	8030612233614957	googletest-main/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	74a92b1f451eebf5
+4	9230	8030612233540340	googletest-main/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	293569efc6df4126
+20	1427	8030613478792007	CMakeFiles/TravelTester.dir/main.cpp.obj	e61f672de83253dc
+9	2695	8030613478682010	lib/libgtest.a	4bf199f63b69ce1
+2702	2779	8030613505615858	lib/libgtest_main.a	cfb251ae63ac17b4
+2695	3037	8030613505549413	lib/libgmock.a	c41fa7cfea959ca6
+3037	3118	8030613508962074	lib/libgmock_main.a	38a7457420a913cc
+2779	5478	8030613506375390	TravelTester.exe	412efe114a19f26a

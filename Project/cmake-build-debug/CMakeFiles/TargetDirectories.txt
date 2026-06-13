@@ -1,3 +1,0 @@
-C:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/CMakeFiles/_fsoft2026_1DA_5_.dir
-C:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
