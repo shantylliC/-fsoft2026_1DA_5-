@@ -5,6 +5,8 @@
 #ifndef _FSOFT2026_1DA_5__ALT_ESTADOS_MODELO_H
 #define _FSOFT2026_1DA_5__ALT_ESTADOS_MODELO_H
 
+#include <string>
+
 class AltEstadosModel {
 protected:
     unsigned char estado; // 0=pendente, 1=confirmada, 2=cancelada

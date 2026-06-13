@@ -8,7 +8,9 @@
 #include "titulo_notas/Modelo/titulo_notas_modelo.h"
 #include "titulo_notas/View/titulo_notas_view.h"
 #include "titulo_notas/Controlador/titulo_notas_controlador.h"
-#include "alt_estados/alt_estados.h"
+#include "alt_estados/Modelo/alt_estados_modelo.h"
+#include "alt_estados/View/alt_estados_view.h"
+#include "alt_estados/Controlador/alt_estados_controller.h"
 
 int main() {
     SetConsoleOutputCP(CP_UTF8);

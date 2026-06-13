@@ -5,6 +5,9 @@
 #ifndef FSOFT2026_1DA_5_TITULO_NOTAS_CONTROLADOR_H
 #define FSOFT2026_1DA_5_TITULO_NOTAS_CONTROLADOR_H
 
+#include "../Modelo/titulo_notas_modelo.h"
+#include "../View/titulo_notas_view.h"
+
 class Titulo_notas_controlador {
 private:
     Titulo_notas_modelo modelo;

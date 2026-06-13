@@ -1,7 +1,13 @@
 # ninja log v6
-20	522	8028213861816668	CMakeFiles/_fsoft2026_1DA_5_.dir/pagamento.cpp.obj	9980a0b7b0f9f6e0
-30	3341	8028819518122235	CMakeFiles/_fsoft2026_1DA_5_.dir/main.cpp.obj	4974b7246da9baca
-599	781	8028821409012066	_fsoft2026_1DA_5_.exe	545d2a04dd8fbb92
-11	598	8028821403136201	CMakeFiles/_fsoft2026_1DA_5_.dir/data.cpp.obj	746a3cc3d6b37bf9
-7	266	8029901970839812	C:/Users/Utilizador/CLionProjects/-fsoft2026_1DA_5-/Project/cmake-build-debug/cmake_install.cmake	6a83ccac3b2b0df8
-7	266	8029901970877015	build.ninja	6a83ccac3b2b0df8
+4	14	8030620948650531	clean	b6e2371f0c376912
+94	273	8030620950919329	CMakeFiles/_fsoft2026_1DA_5_.dir/numero_de_reserva/Modelo/n_reserva_modelo.cpp.obj	de85092ee75f3af
+86	665	8030620950839288	CMakeFiles/_fsoft2026_1DA_5_.dir/numero_de_reserva/Controlador/n_reserva_controlador.cpp.obj	c32564888c110fe9
+273	1221	8030620952709779	CMakeFiles/_fsoft2026_1DA_5_.dir/numero_de_reserva/View/n_reserva_view.cpp.obj	365f7e79ddb53e06
+81	1227	8030620950789213	CMakeFiles/_fsoft2026_1DA_5_.dir/pagamento.cpp.obj	9980a0b7b0f9f6e0
+7	1371	8030620950050242	CMakeFiles/_fsoft2026_1DA_5_.dir/data.cpp.obj	746a3cc3d6b37bf9
+22	370	8030631148500049	CMakeFiles/_fsoft2026_1DA_5_.dir/titulo_notas/Modelo/titulo_notas_modelo.cpp.obj	20b34f4168fa1d6b
+18	376	8030631148454366	CMakeFiles/_fsoft2026_1DA_5_.dir/titulo_notas/Controlador/titulo_notas_controlador.cpp.obj	8b08535aa0b1c989
+27	464	8030631148550012	CMakeFiles/_fsoft2026_1DA_5_.dir/titulo_notas/View/titulo_notas_view.cpp.obj	ab22f01015b9eb15
+18	330	8030637130301508	CMakeFiles/_fsoft2026_1DA_5_.dir/alt_estados/Controlador/alt_estados_controller.cpp.obj	7986860d996f683b
+23	365	8030637130344939	CMakeFiles/_fsoft2026_1DA_5_.dir/alt_estados/Modelo/alt_estados_modelo.cpp.obj	a3271ebc0ec036bc
+29	465	8030637130401407	CMakeFiles/_fsoft2026_1DA_5_.dir/alt_estados/View/alt_estados_view.cpp.obj	63bfdded0187ed77
