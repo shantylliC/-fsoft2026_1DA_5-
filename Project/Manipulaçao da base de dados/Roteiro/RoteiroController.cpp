@@ -1,11 +1,10 @@
-//
-// Created by HQCamachoPC on 12/06/2026.
-//
-
 #include "RoteiroController.h"
 #include "Excecoes.h"
+#include "data.h"
 
-RoteiroController::RoteiroController() {}
+
+RoteiroController::RoteiroController() : datasDoRoteiro(1, 1, 2026, 1, 1, 2026) {}
+
 
 // 1. REGISTAR DESTINO SELECIONADO
 void RoteiroController::registarEscolha(LocalidadeModel* localidadeSelecionada) {
@@ -65,8 +64,8 @@ void RoteiroController::alterarMetodoPagamento() {
 }
 
 // 5. FINALIZAR COMPRA E PERSISTIR DADOS NO DISCO
+// 5. FINALIZAR COMPRA E PERSISTIR DADOS NO DISCO
 void RoteiroController::finalizarEGravar() {
-
 
     const auto& escolhas = model.obterEscolhas();
 
@@ -83,10 +82,31 @@ void RoteiroController::finalizarEGravar() {
     double subtotal = Financeiro::calcularTotalBase(escolhas);
     double totalFinal = Financeiro::calcularTotalComIVA(subtotal);
 
-    // Manda o model gravar fisicamente no disco rígido
-      if (model.gravarFicheiroReserva(numReserva, estadoVia, tituloVia, notasVia, chegada, saida, duracaoDias, subtotal, totalFinal)) {
+    // Datas
+
+    std::string stringChegada = std::to_string(this->datasDoRoteiro.getChegada().dia) + "/" +
+                                std::to_string(this->datasDoRoteiro.getChegada().mes) + "/" +
+                                std::to_string(this->datasDoRoteiro.getChegada().ano);
+
+    std::string stringSaida = std::to_string(this->datasDoRoteiro.getSaida().dia) + "/" +
+                              std::to_string(this->datasDoRoteiro.getSaida().mes) + "/" +
+                              std::to_string(this->datasDoRoteiro.getSaida().ano);
+
+    int diasDeViagem = this->datasDoRoteiro.getNumeroDias();
+
+    int idReservaDumb = rand() % 9000 + 1000;
+    std::string estadoDumb = "CONFIRMADA";
+    std::string tituloDumb = "Viagem Grupo FSOFT";
+    std::string notasDumb = "Processado e Validado pelo Modulo de Datas.";
+
+    if (model.gravarFicheiroReserva(idReservaDumb, estadoDumb, tituloDumb, notasDumb, stringChegada, stringSaida, diasDeViagem, subtotal, totalFinal)) {
         view.mostrarMensagem("Viagem gravada com sucesso!");
     } else {
         throw ErroFormatacaoFicheiroException("Falha ao abrir o ficheiro de reserva para escrita.");
     }
+}
+
+void RoteiroController::definirDatas(Data novasDatas) {
+    // A prova física de que o teu circuito invadiu o módulo dela com sucesso
+    std::cout << "\nTeste Funcionou.\n";
 }

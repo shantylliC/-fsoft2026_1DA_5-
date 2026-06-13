@@ -12,7 +12,7 @@
 class LocalidadeView {
 public:
 
-    void mostrarDados(const LocalidadeModel* localidade) const;
+    void mostrarDetalhes(const LocalidadeModel* localidade) const;
     void mostrarErroFicheiro() const;
 };
 

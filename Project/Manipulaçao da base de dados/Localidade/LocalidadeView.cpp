@@ -29,3 +29,6 @@ void LocalidadeView::mostrarDetalhes(const LocalidadeModel* localidade) const {
         }
     }
 }
+void LocalidadeView::mostrarErroFicheiro() const {
+    std::cout << "\nFalha ao ler os detalhes da localidade.\n";
+}

@@ -23,3 +23,4 @@ void LocalidadeModel::adicionarAtividade(const std::string& atividade) {
 const std::vector<std::string>& LocalidadeModel::obterAtividades() const {
     return atividadesDaCidade;
 }
+

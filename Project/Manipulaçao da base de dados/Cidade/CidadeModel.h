@@ -5,7 +5,7 @@
 #ifndef PROJETOVIAGENS_CIDADEMODEL_H
 #define PROJETOVIAGENS_CIDADEMODEL_H
 
-#include "LocalidadeModel.h" // Herda da classe base que já refatorámos
+#include "../Localidade/LocalidadeModel.h" // Herda da classe base que já refatorámos
 #include <string>
 
 class CidadeModel : public LocalidadeModel {

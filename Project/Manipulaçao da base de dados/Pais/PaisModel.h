@@ -6,7 +6,7 @@
 #define PROJETOVIAGENS_PAISMODEL_H
 
 
-#include "LocalidadeModel.h" // Herda do novo Modelo!
+#include "../Localidade/LocalidadeModel.h"// Herda do novo Modelo!
 #include <string>
 
 class PaisModel : public LocalidadeModel {

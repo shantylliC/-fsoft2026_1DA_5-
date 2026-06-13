@@ -6,6 +6,7 @@
 #define PROJETOVIAGENS_LOCALIDADEMODEL_H
 
 #include <string>
+#include <vector>
 // REPARASTE? O <iostream> desapareceu daqui! O modelo não imprime nada.
 
 class LocalidadeModel {

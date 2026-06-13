@@ -1,6 +1,3 @@
-#Atividades da Europa - ID_pais; ID_cidade; ID_atividade;nome ;preço_atividade:
-
-
 1;1;1;Praça Skanderbeg;0.0
 1;1;2;Museu Histórico Nacional;5.0
 1;1;3;Pirâmide de Tirana;0.0

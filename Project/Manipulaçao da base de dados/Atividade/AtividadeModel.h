@@ -6,7 +6,7 @@
 #define PROJETOVIAGENS_ATIVIDADEMODEL_H
 
 
-#include "LocalidadeModel.h"
+#include "../Localidade/LocalidadeModel.h"
 #include <string>
 
 class AtividadeModel : public LocalidadeModel {

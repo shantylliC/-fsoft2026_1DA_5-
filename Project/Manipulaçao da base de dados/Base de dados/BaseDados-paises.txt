@@ -1,6 +1,3 @@
-#Países Europeus -- ID_paises ; Países:
-
-
 1;Albânia
 2;Alemanha
 3;Andorra
@@ -47,4 +44,3 @@
 44;Suíça
 45;Ucrânia
 46;Vaticano
-

@@ -3,7 +3,18 @@ project(ProjetoViagens)
 
 set(CMAKE_CXX_STANDARD 17)
 
-#adicionar os fichieros .cpp:
+include_directories(
+        "../Localidade"
+        "../Pais"
+        "../Cidade"
+        "../Atividade"
+        "../Repositorio Catalogo"
+        "../Roteiro"
+        "../Financeiro"
+        "../Exceçoes"
+        "../../Datas"
+)
+#adicionar os ficheiros .cpp:
 add_executable(ProjetoViagens
         Main.cpp
         "../Localidade/LocalidadeModel.cpp"
@@ -29,6 +40,11 @@ add_executable(ProjetoViagens
         "../Financeiro/Financeiro.cpp"
         "../Financeiro/Financeiro.h"
         "../Exceçoes/Excecoes.h"
-
-
+        #datas
+        "../../Datas/Controller.cpp"
+        "../../Datas/Controller.h"
+        "../../Datas/View.cpp"
+        "../../Datas/View.h"
+        "../../Datas/data.cpp"
+        "../../Datas/data.h"
 )

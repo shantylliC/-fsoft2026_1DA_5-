@@ -40,7 +40,7 @@ void RepositorioCatalogo::lerFicheiro(std::string nomeFicheiro, int tipo) {
         throw ErroFormatacaoFicheiroException("Nao foi possivel encontrar ou abrir o ficheiro: " + nomeFicheiro);
     }
 
-    while (std::obterLinha(ficheiro, linha)) {
+    while (std::getline(ficheiro, linha)) {
         if (linha.empty()) continue;
 
         // Instanciação polimórfica controlada por tipo

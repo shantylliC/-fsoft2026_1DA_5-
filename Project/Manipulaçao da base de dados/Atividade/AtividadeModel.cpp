@@ -1,5 +1,6 @@
 
 #include "AtividadeModel.h"
+#include "../Exceçoes/Excecoes.h"
 // Construtores
 AtividadeModel::AtividadeModel() : LocalidadeModel(), cidadeAssociada(0), precoTicket(0.0) {}
 

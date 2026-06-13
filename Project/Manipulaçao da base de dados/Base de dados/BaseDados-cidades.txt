@@ -1,5 +1,3 @@
-#Cidades Europeias - ID_pais; ID_cidade; Cidade; preço_cidade:
-
 1;1;Tirana;55
 1;2;Durrës;45
 1;3;Vlorë;50

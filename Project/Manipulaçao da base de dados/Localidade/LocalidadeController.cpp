@@ -1,7 +1,3 @@
-//
-// Created by HQCamachoPC on 12/06/2026.
-//
-
 #include "LocalidadeController.h"
 
 void LocalidadeController::gerirApresentacao(LocalidadeModel* localidade) {

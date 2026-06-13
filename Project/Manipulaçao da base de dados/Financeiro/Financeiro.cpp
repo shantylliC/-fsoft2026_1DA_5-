@@ -10,7 +10,7 @@
 
 
 
-MetodoPagamento Financeiro::metodoSelecionado = MetodoPagamento::NAODEFINIDO;
+MetodoPagamento Financeiro::metodoSelecionado = MetodoPagamento::NAO_DEFINIDO;
 
 double Financeiro::calcularTotalBase(const std::vector<LocalidadeModel*>& listaParaContas) {
 
