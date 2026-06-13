@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/ProjectTester/Data - Testers/cmake-build-debug/cmake_install.cmake",
+		"C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/ProjectTester/Data - Testers/cmake-build-debug/googletest-main/cmake_install.cmake",
+		"C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/ProjectTester/Data - Testers/cmake-build-debug/googletest-main/googlemock/cmake_install.cmake",
+		"C:/Users/diogo/CLionProjects/-fsoft2026_1DA_5-/ProjectTester/Data - Testers/cmake-build-debug/googletest-main/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
