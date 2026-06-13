@@ -11,7 +11,6 @@ add_executable(organizador
         LoginRepository/LoginRepository.cpp
         AutenticacaoService/AutenticacaoService.cpp
         AutenticacaoController/AutenticacaoController.cpp
-        LoginView/LoginView.cpp)
 
 target_include_directories(organizador PRIVATE headers)
 

@@ -1,0 +1,46 @@
+1;Albânia
+2;Alemanha
+3;Andorra
+4;Áustria
+5;Bélgica
+6;Bielorrússia
+7;Bósnia e Herzegovina
+8;Bulgária
+9;Chéquia
+10;Chipre
+11;Croácia
+12;Dinamarca
+13;Eslováquia
+14;Eslovénia
+15;Espanha
+16;Estónia
+17;Finlândia
+18;França
+19;Grécia
+20;Hungria
+21;Irlanda
+22;Islândia
+23;Itália
+24;Kosovo
+25;Letónia
+26;Liechtenstein
+27;Lituânia
+28;Luxemburgo
+29;Macedónia do Norte
+30;Malta
+31;Moldávia
+32;Mónaco
+33;Montenegro
+34;Noruega
+35;Países Baixos
+36;Polónia
+37;Portugal
+38;Reino Unido
+39;Roménia
+40;Rússia
+41;San Marino
+42;Sérvia
+43;Suécia
+44;Suíça
+45;Ucrânia
+46;Vaticano

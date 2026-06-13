@@ -1,0 +1,552 @@
+1;1;1;Praça Skanderbeg;0.0
+1;1;2;Museu Histórico Nacional;5.0
+1;1;3;Pirâmide de Tirana;0.0
+1;2;4;Anfiteatro de Durrës;4.0
+1;2;5;Castelo de Durrës;0.0
+1;2;6;Museu Arqueológico;3.0
+1;3;7;Castelo de Kaninë;2.0
+1;3;8;Museu da Independência;3.5
+1;3;9;Mosteiro de Zvërnec;0.0
+1;4;10;Castelo de Rozafa;5.0
+1;4;11;Museu Marubi;7.0
+1;4;12;Mesquita de Chumbo;0.0
+2;5;13;Porta de Brandemburgo;0.0
+2;5;14;Muro de Berlim;0.0
+2;5;15;Museu Pergamon;12.0
+2;6;16;Marienplatz;0.0
+2;6;17;Museu BMW;10.0
+2;6;18;Jardim Inglês;0.0
+2;7;19;Miniatur Wunderland;20.0
+2;7;20;Porto de Hamburgo;0.0
+2;7;21;Filarmónica do Elba;15.0
+2;8;22;Römerberg;0.0
+2;8;23;Casa de Goethe;7.0
+2;8;24;Main Tower;9.0
+3;9;25;Casa de la Vall;5.0
+3;9;26;Igreja de Sant Esteve;0.0
+3;9;27;Centro Histórico;0.0
+3;10;28;Lago de Engolasters;0.0
+3;10;29;Igreja de Santa Eulàlia;0.0
+3;10;30;Funicular de Encamp;10.0
+3;11;31;Miradouro Roc del Quer;0.0
+3;11;32;Pal de Glace;15.0
+3;11;33;Igreja de Sant Joan;0.0
+3;12;34;Vallnord Bike Park;30.0
+3;12;35;Igreja de Sant Iscle;0.0
+3;12;36;Museu Casa Rull;5.0
+4;13;37;Palácio de Schönbrunn;18.0
+4;13;38;Catedral de Santo Estêvão;0.0
+4;13;39;Ópera de Viena;25.0
+4;14;40;Fortaleza Hohensalzburg;12.0
+4;14;41;Casa de Mozart;11.0
+4;14;42;Palácio Mirabell;0.0
+4;15;43;Telhado de Ouro;5.0
+4;15;44;Palácio Imperial;9.0
+4;15;45;Teleférico Nordkette;35.0
+4;16;46;Schlossberg;0.0
+4;16;47;Kunsthaus Graz;10.0
+4;16;48;Eggenberg Palace;15.0
+5;17;49;Grand Place;0.0
+5;17;50;Atomium;16.0
+5;17;51;Manneken Pis;0.0
+5;18;52;Catedral de Antuérpia;6.0
+5;18;53;Museu MAS;10.0
+5;18;54;Zoológico de Antuérpia;25.0
+5;19;55;Castelo de Gravensteen;12.0
+5;19;56;Torre de Belfry;8.0
+5;19;57;Cais Graslei;0.0
+5;20;58;Canais de Bruges;15.0
+5;20;59;Praça do Mercado;0.0
+5;20;60;Museu do Chocolate;10.0
+6;21;61;Biblioteca Nacional;0.0
+6;21;62;Praça da Vitória;0.0
+6;21;63;Museu da Grande Guerra;10.0
+6;22;64;Fortaleza de Brest;5.0
+6;22;65;Museu do Caminho de Ferro;3.0
+6;22;66;Rua Sovetskaya;0.0
+6;23;67;Palácio de Rumyantsev;8.0
+6;23;68;Parque Central;0.0
+6;23;69;Circo de Gomel;15.0
+6;24;70;Antigo Castelo;6.0
+6;24;71;Igreja de Kalozha;0.0
+6;24;72;Parque Zhilibera;0.0
+7;25;73;Baščaršija (Bazar);0.0
+7;25;74;Túnel da Esperança;10.0
+7;25;75;Ponte Latina;0.0
+7;26;76;Ponte Velha (Stari Most);0.0
+7;26;77;Casa de Muslibegović;4.0
+7;26;78;Bazar Antigo;0.0
+7;27;79;Fortaleza de Kastel;0.0
+7;27;80;Catedral de Cristo Rei;0.0
+7;27;81;Museu de Arte Moderna;5.0
+7;28;82;Lagos de Panonica;5.0
+7;28;83;Praça da Liberdade;0.0
+7;28;84;Mesquita de Jala;0.0
+8;29;85;Catedral Alexander Nevsky;0.0
+8;29;86;Teatro Nacional;15.0
+8;29;87;Igreja de Santa Sofia;0.0
+8;30;88;Teatro Romano;5.0
+8;30;89;Centro Antigo;0.0
+8;30;90;Colina Nebet Tepe;0.0
+8;31;91;Jardim Marítimo;0.0
+8;31;92;Catedral de Varna;0.0
+8;31;93;Museu Arqueológico;8.0
+8;32;94;Sea Garden;0.0
+8;32;95;Museu de Etnografia;4.0
+8;32;96;Lago Atanasovsko;0.0
+9;33;97;Ponte Carlos;0.0
+9;33;98;Castelo de Praga;16.0
+9;33;99;Relógio Astronómico;0.0
+9;34;100;Catedral de S. Pedro;0.0
+9;34;101;Castelo de Spilberk;8.0
+9;34;102;Labirinto Debaixo do Mercado;10.0
+9;35;103;Torre Bolt;9.0
+9;35;104;Zoológico de Ostrava;15.0
+9;35;105;Museu da Mineração;7.0
+9;36;106;Catedral de S. Bartolomeu;3.0
+9;36;107;Museu da Cerveja Pilsner;12.0
+9;36;108;Grande Sinagoga;5.0
+10;37;109;Rua Ledra;0.0
+10;37;110;Museu do Chipre;7.0
+10;37;111;Portão de Famagusta;0.0
+10;38;112;Castelo de Limassol;5.0
+10;38;113;Marina de Limassol;0.0
+10;38;114;Passeio Marítimo Molos;0.0
+10;39;115;Igreja de S. Lázaro;0.0
+10;39;116;Lago Salgado;0.0
+10;39;117;Fortaleza de Lárnaca;3.0
+10;40;118;Parque Arqueológico;8.0
+10;40;119;Túmulos dos Reis;5.0
+10;40;120;Pedra de Afrodite;0.0
+11;41;121;Igreja de S. Marcos;0.0
+11;41;122;Museu das Relações Terminadas;7.0
+11;41;123;Catedral de Zagrebe;0.0
+11;42;124;Palácio de Diocleciano;0.0
+11;42;125;Catedral de S. Domnio;5.0
+11;42;126;Parque Marjan;0.0
+11;43;127;Muralhas da Cidade;25.0
+11;43;128;Teleférico;20.0
+11;43;129;Stradun (Rua Principal);0.0
+11;44;130;Órgão do Mar;0.0
+11;44;131;Saudação ao Sol;0.0
+11;44;132;Fórum Romano;0.0
+12;45;133;Estátua da Pequena Sereia;0.0
+12;45;134;Jardins de Tivoli;20.0
+12;45;135;Castelo de Rosenborg;15.0
+12;46;136;ARoS Aarhus Art Museum;18.0
+12;46;137;Den Gamle By;15.0
+12;46;138;Catedral de Aarhus;0.0
+12;47;139;Casa de Hans Christian Andersen;12.0
+12;47;140;Zoológico de Odense;22.0
+12;47;141;Egeskov Castle;25.0
+12;48;142;Utzon Center;10.0
+12;48;143;Aalborg Zoo;21.0
+12;48;144;Lindholm Høje;8.0
+13;49;145;Castelo de Bratislava;10.0
+13;49;146;Igreja Azul;0.0
+13;49;147;Ponte UFO;12.0
+13;50;148;Catedral de Santa Isabel;2.0
+13;50;149;Rua Principal (Hlavna);0.0
+13;50;150;Palácio de Jakab;0.0
+13;51;151;Catedral de S. Nicolau;0.0
+13;51;152;Câmara Municipal;0.0
+13;51;153;Museu de Vinho;5.0
+13;52;154;Praça Mariánske;0.0
+13;52;155;Torre Budatín;4.0
+13;52;156;Igreja da Santíssima Trindade;0.0
+14;53;157;Castelo de Liubliana;10.0
+14;53;158;Ponte do Dragão;0.0
+14;53;159;Parque Tivoli;0.0
+14;54;160;Catedral de Maribor;0.0
+14;54;161;Casa da Vinha Velha;5.0
+14;54;162;Pohorje (Montanha);20.0
+14;55;163;Castelo de Celje;6.0
+14;55;164;Torre de Água;0.0
+14;55;165;Museu Regional;5.0
+14;56;166;Centro Histórico de Kranj;0.0
+14;56;167;Túneis sob Kranj;7.0
+14;56;168;Castelo Kieselstein;3.0
+15;57;169;Museu do Prado;15.0
+15;57;170;Parque do Retiro;0.0
+15;57;171;Palácio Real de Madrid;13.0
+15;58;172;Sagrada Família;26.0
+15;58;173;Parque Güell;10.0
+15;58;174;Las Ramblas;0.0
+15;59;175;Catedral de Sevilha;10.0
+15;59;176;Praça de Espanha;0.0
+15;59;177;Alcázar de Sevilha;14.0
+15;60;178;Cidade das Artes e Ciências;35.0
+15;60;179;Mercado Central;0.0
+15;60;180;Catedral de Valência;8.0
+16;61;181;Cidade Velha (Vanalinn);0.0
+16;61;182;Catedral de Alexander Nevsky;0.0
+16;61;183;Torre de TV de Tallinn;13.0
+16;62;184;Universidade de Tartu;0.0
+16;62;185;Museu Nacional da Estónia;12.0
+16;62;186;Centro Ciência AHHAA;15.0
+16;63;187;Castelo de Narva;10.0
+16;63;188;Passeio Marítimo;0.0
+16;63;189;Câmara Municipal de Narva;0.0
+16;64;190;Praia de Pärnu;0.0
+16;64;191;Rua Rüütli;0.0
+16;64;192;Museu de Pärnu;5.0
+17;65;193;Catedral Luterana;0.0
+17;65;194;Praça do Mercado;0.0
+17;65;195;Fortaleza de Suomenlinna;10.0
+17;66;196;Parque Nacional Nuuksio;0.0
+17;66;197;Centro de Exposições WeeGee;12.0
+17;66;198;Museu de Arte Moderna Emma;12.0
+17;67;199;Torre Näsinneula;15.0
+17;67;200;Museu Vapriikki;13.0
+17;67;201;Catedral de Tampere;0.0
+17;68;202;Museu da Cidade de Vantaa;0.0
+17;68;203;Centro de Ciência Heureka;22.0
+17;68;204;Parque Nacional de Sipoonkorpi;0.0
+18;69;205;Torre Eiffel;27.0
+18;69;206;Museu do Louvre;17.0
+18;69;207;Catedral de Notre-Dame;0.0
+18;70;208;Basílica de Notre-Dame;0.0
+18;70;209;Teatro Romano de Fourvière;0.0
+18;70;210;Parque da Tête d'Or;0.0
+18;71;211;Basílica de Notre-Dame de la Garde;0.0
+18;71;212;Porto Velho de Marselha;0.0
+18;71;213;Museu MuCEM;11.0
+18;72;214;Place de la Bourse;0.0
+18;72;215;Cité du Vin;20.0
+18;72;216;Jardim Público;0.0
+19;73;217;Acrópole de Atenas;20.0
+19;73;218;Museu da Acrópole;15.0
+19;73;219;Plaka (Bairro);0.0
+19;74;220;Torre Branca;6.0
+19;74;221;Rotunda de Galério;4.0
+19;74;222;Passeio Marítimo;0.0
+19;75;223;Teatro Municipal;10.0
+19;75;224;Castelo de Patras;0.0
+19;75;225;Basílica de S. André;0.0
+19;76;226;Museu Arqueológico;12.0
+19;76;227;Fortaleza de Koules;4.0
+19;76;228;Palácio de Knossos;15.0
+20;77;229;Parlamento de Budapeste;15.0
+20;77;230;Bastião dos Pescadores;5.0
+20;77;231;Termas Széchenyi;25.0
+20;78;232;Grande Igreja Reformada;4.0
+20;78;233;Parque Nagyerdő;0.0
+20;78;234;Museu Déri;6.0
+20;79;235;Catedral Votiva;5.0
+20;79;236;Praça Dom;0.0
+20;79;237;Museu Móra Ferenc;7.0
+20;80;238;Banho de Caverna Miskolctapolca;15.0
+20;80;239;Castelo Diósgyőr;8.0
+20;80;240;Teatro Nacional;10.0
+21;81;241;Cervejaria Guinness Storehouse;25.0
+21;81;242;Temple Bar;0.0
+21;81;243;Trinity College;18.0
+21;82;244;Mercado Inglês;0.0
+21;82;245;Prisão de Cork;10.0
+21;82;246;Observatório de Blackrock;7.0
+21;83;247;Castelo do Rei João;12.0
+21;83;248;Museu Hunt;8.0
+21;83;249;Catedral de Santa Maria;4.0
+21;84;250;Eyre Square;0.0
+21;84;251;Spanish Arch;0.0
+21;84;252;Catedral de Galway;0.0
+22;85;253;Igreja Hallgrímskirkja;0.0
+22;85;254;Harpa Concert Hall;0.0
+22;85;255;Museu Nacional da Islândia;10.0
+22;86;256;Jardim Botânico;0.0
+22;86;257;Igreja de Akureyri;0.0
+22;86;258;Museu de Arte de Akureyri;5.0
+22;87;259;Museu do Rock 'n' Roll;10.0
+22;87;260;Stekkjarkot;0.0
+22;87;261;Museu Marítimo;5.0
+22;88;262;Museu Viking World;12.0
+22;88;263;Farol de Reykjanes;0.0
+22;88;264;Vila Viking;0.0
+23;89;265;Coliseu de Roma;18.0
+23;89;266;Fontana di Trevi;0.0
+23;89;267;Panteão de Roma;5.0
+23;90;268;Duomo de Milão;10.0
+23;90;269;Galeria Vittorio Emanuele;0.0
+23;90;270;Castelo Sforzesco;0.0
+23;91;271;Duomo de Florença;0.0
+23;91;272;Galeria Uffizi;20.0
+23;91;273;Ponte Vecchio;0.0
+23;92;274;Praça de S. Marcos;0.0
+23;92;275;Ponte Rialto;0.0
+23;92;276;Palácio Ducal;25.0
+24;93;277;Museu Nacional do Kosovo;0.0
+24;93;278;Biblioteca Nacional;0.0
+24;93;279;Catedral de Santa Teresa;0.0
+24;94;280;Ponte de Pedra;0.0
+24;94;281;Castelo de Prizren;0.0
+24;94;282;Mesquita de Sinan Pasha;0.0
+24;95;283;Bazar de Peja;0.0
+24;95;284;Patriarcado de Peć;5.0
+24;95;285;Gruta Radavc;3.0
+24;96;286;Bazar Antigo;0.0
+24;96;287;Mesquita Hadum;0.0
+24;96;288;Museu de Etnografia;2.0
+25;97;289;Cidade Velha (Vecrīga);0.0
+25;97;290;Monumento à Liberdade;0.0
+25;97;291;Mercado Central;0.0
+25;98;292;Fortaleza de Daugavpils;0.0
+25;98;293;Centro de Arte Mark Rothko;10.0
+25;98;294;Colina das Igrejas;0.0
+25;99;295;Praia de Liepāja;0.0
+25;99;296;Prisão de Karosta;7.0
+25;99;297;Concerto de Amber;15.0
+25;100;298;Palácio de Jelgava;4.0
+25;100;299;Torre da Igreja de Trindade;3.0
+25;100;300;Museu de História e Arte;2.0
+26;101;301;Castelo de Vaduz;0.0
+26;101;302;Museu Nacional;10.0
+26;101;303;Kunstmuseum Liechtenstein;15.0
+26;102;304;Domus (Casa Romana);0.0
+26;102;305;Parque Natural Schaan;0.0
+26;102;306;Igreja de S. Lourenço;0.0
+26;103;307;Miradouro Triesenberg;0.0
+26;103;308;Trilho das Princesas;0.0
+26;103;309;Capela de Mamertus;0.0
+26;104;310;Castelo de Gutenberg;0.0
+26;104;311;Caminho de Compostela;0.0
+26;104;312;Rio Reno (Margem);0.0
+27;105;313;Torre de Gediminas;6.0
+27;105;314;Portão da Alvorada;0.0
+27;105;315;Catedral de Vilnius;0.0
+27;106;316;Castelo de Kaunas;4.0
+27;106;317;Museu dos Diabos;5.0
+27;106;318;Igreja de S. Miguel;0.0
+27;107;319;Museu Marinho da Lituânia;10.0
+27;107;320;Cidade Velha;0.0
+27;107;321;Escultura do Rato Mágico;0.0
+27;108;322;Colina das Cruzes;0.0
+27;108;323;Museu da Bicicleta;3.0
+27;108;324;Praça do Sol;0.0
+28;109;325;Casamatas Bock;7.0
+28;109;326;Palácio Grão-Ducal;15.0
+28;109;327;Catedral de Notre-Dame;0.0
+28;110;328;Fornos Altos;0.0
+28;110;329;Parque Galgenberg;0.0
+28;110;330;Teatro Municipal;12.0
+28;111;331;Parque Gerlache;0.0
+28;111;332;Igreja de Saint-Fiacre;0.0
+28;111;333;Centro Cultural Aalt Stadhaus;10.0
+28;112;334;Parque Le'h;0.0
+28;112;335;Torre de Água;0.0
+28;112;336;Centro de Desportos Rene Hartmann;5.0
+29;113;337;Ponte de Pedra;0.0
+29;113;338;Fortaleza de Kale;0.0
+29;113;339;Cruz do Milénio;10.0
+29;114;340;Heraclea Lyncestis;3.0
+29;114;341;Bazar de Bitola;0.0
+29;114;342;Rua Shirok Sokak;0.0
+29;115;343;Memorial Zebrnjak;0.0
+29;115;344;Igreja de S. Nicolau;0.0
+29;115;345;Museu de Kumanovo;2.0
+29;116;346;Lago de Ohrid;0.0
+29;116;347;Igreja de S. João em Kaneo;3.0
+29;116;348;Anfiteatro Antigo;0.0
+30;117;349;Co-Catedral de S. João;15.0
+30;117;350;Upper Barrakka Gardens;0.0
+30;117;351;Palácio do Grão-Mestre;10.0
+30;118;352;Basílica de Santa Helena;0.0
+30;118;353;Aqueduto Wignacourt;0.0
+30;118;354;Valle de Ta' Qali;0.0
+30;119;355;Passeio de Sliema;0.0
+30;119;356;Forte Tigné;0.0
+30;119;357;Centro Comercial The Point;0.0
+30;120;358;Rotunda de Mosta;5.0
+30;120;359;Ta' Bistra Catacombs;4.0
+30;120;360;Victoria Lines;0.0
+31;121;361;Arco do Triunfo;0.0
+31;121;362;Parque Stefan cel Mare;0.0
+31;121;363;Catedral da Natividade;0.0
+31;122;364;Estátua de Lenine;0.0
+31;122;365;Museu de História Local;2.0
+31;122;366;Casa da Cultura;0.0
+31;123;367;Catedral de S. Nicolau;0.0
+31;123;368;Universidade Alecu Russo;0.0
+31;123;369;Teatro Vasile Alecsandri;8.0
+31;124;370;Fortaleza de Bender;5.0
+31;124;371;Museu Memorial;2.0
+31;124;372;Parque Municipal;0.0
+32;125;373;Palácio do Príncipe;10.0
+32;125;374;Catedral do Mónaco;0.0
+32;125;375;Museu Oceanográfico;18.0
+32;126;376;Casino de Monte Carlo;17.0
+32;126;377;Jardim Japonês;0.0
+32;126;378;Ópera de Monte Carlo;30.0
+32;127;379;Porto Hercule;0.0
+32;127;380;Mercado de La Condamine;0.0
+32;127;381;Igreja de Santa Devota;0.0
+32;128;382;Estádio Louis II;10.0
+32;128;383;Rosaleda Princesa Grace;0.0
+32;128;384;Museu Naval;5.0
+33;129;385;Ponte do Milénio;0.0
+33;129;386;Catedral da Ressurreição;0.0
+33;129;387;Museu da Cidade;3.0
+33;130;388;Lago Krupac;0.0
+33;130;389;Mosteiro de Ostrog (perto);0.0
+33;130;390;Praça da Liberdade;0.0
+33;131;391;Cidade Velha de Budva;0.0
+33;131;392;Praia de Mogren;0.0
+33;131;393;Citadela de Budva;4.0
+33;132;394;Baía de Kotor;0.0
+33;132;395;Muralhas de Kotor;8.0
+33;132;396;Catedral de S. Trifão;3.0
+34;133;397;Museu dos Barcos Vikings;12.0
+34;133;398;Parque Vigeland;0.0
+34;133;399;Ópera de Oslo;0.0
+34;134;400;Bryggen (Cais);0.0
+34;134;401;Funicular Fløibanen;11.0
+34;134;402;Mercado do Peixe;0.0
+34;135;403;Catedral de Nidaros;10.0
+34;135;404;Palácio do Arcebispo;8.0
+34;135;405;Rockheim (Museu);14.0
+34;136;406;Preikestolen (Pulpit Rock);0.0
+34;136;407;Museu do Petróleo;13.0
+34;136;408;Catedral de Stavanger;0.0
+35;137;409;Museu Anne Frank;16.0
+35;137;410;Rijksmuseum;22.5
+35;137;411;Canais de Amesterdão;20.0
+35;138;412;Casas Cubo;3.0
+35;138;413;Euromast;12.0
+35;138;414;Markthal;0.0
+35;139;415;Mauritshuis;19.0
+35;139;416;Madurodam;21.5
+35;139;417;Palácio da Paz;10.0
+35;140;418;Torre Dom;12.5
+35;140;419;Canais de Oude Gracht;0.0
+35;140;420;Museu Ferroviário;17.5
+36;141;421;Palácio da Cultura e Ciência;10.0
+36;141;422;Museu do Levante de Varsóvia;8.0
+36;141;423;Parque Lazienki;0.0
+36;142;424;Praça do Mercado Central;0.0
+36;142;425;Castelo de Wawel;12.0
+36;142;426;Bairro Judeu (Kazimierz);0.0
+36;143;427;Rua Piotrkowska;0.0
+36;143;428;Manufaktura;0.0
+36;143;429;Museu de Arte de Lodz;6.0
+36;144;430;Panorama de Raclawice;11.0
+36;144;431;Praça Rynek;0.0
+36;144;432;Ilha das Catedrais;0.0
+37;145;433;Torre de Belém;9.0
+37;145;434;Mosteiro dos Jerónimos;10.0
+37;145;435;Castelo de S. Jorge;10.0
+37;146;436;Ribeira do Porto;0.0
+37;146;437;Torre dos Clérigos;6.0
+37;146;438;Palácio da Bolsa;10.0
+37;147;439;Universidade de Coimbra;12.0
+37;147;440;Portugal dos Pequenitos;11.0
+37;147;441;Quinta das Lágrimas;2.5
+37;148;442;Bom Jesus do Monte;0.0
+37;148;443;Santuário do Sameiro;0.0
+37;148;444;Sé de Braga;5.0
+38;149;445;Big Ben;0.0
+38;149;446;London Eye;35.0
+38;149;447;Museu Britânico;0.0
+38;150;448;Castelo de Edimburgo;21.0
+38;150;449;Royal Mile;0.0
+38;150;450;Palácio de Holyroodhouse;18.0
+38;151;451;Old Trafford;30.0
+38;151;452;Museu da Ciência e Indústria;0.0
+38;151;453;Biblioteca John Rylands;0.0
+38;152;454;The Beatles Story;20.0
+38;152;455;Albert Dock;0.0
+38;152;456;Catedral de Liverpool;0.0
+39;153;457;Palácio do Parlamento;12.0
+39;153;458;Arco do Triunfo;0.0
+39;153;459;Museu da Aldeia;6.0
+39;154;460;Igreja de S. Miguel;0.0
+39;154;461;Jardim Botânico;3.0
+39;154;462;Parque Central;0.0
+39;155;463;Praça da Vitória;0.0
+39;155;464;Catedral Metropolitana;0.0
+39;155;465;Castelo de Huniade;5.0
+39;156;466;Palácio da Cultura;6.0
+39;156;467;Teatro Nacional;10.0
+39;156;468;Mosteiro Golia;0.0
+40;157;469;Praça Vermelha;0.0
+40;157;470;Kremlin;15.0
+40;157;471;Teatro Bolshoi;50.0
+40;158;472;Museu Hermitage;10.0
+40;158;473;Catedral do Sangue Derramado;7.0
+40;158;474;Palácio Peterhof;15.0
+40;159;475;Ópera de Novosibirsk;30.0
+40;159;476;Zoológico de Novosibirsk;8.0
+40;159;477;Catedral de Alexander Nevsky;0.0
+40;160;478;Igreja do Sangue;0.0
+40;160;479;Centro Presidencial Boris Yeltsin;10.0
+40;160;480;Miradouro Vysotsky;5.0
+41;161;481;Três Torres de San Marino;6.0
+41;161;482;Piazza della Libertà;0.0
+41;161;483;Basílica de San Marino;0.0
+41;162;484;Centro Comercial Atlante;0.0
+41;162;485;Igreja de Dogana;0.0
+41;162;486;Parque Ausa;0.0
+41;163;487;Caminho das Ruas Estreitas;0.0
+41;163;488;Funicular San Marino;5.0
+41;163;489;Igreja de S. Antimo;0.0
+41;164;490;Castelo de Serravalle;0.0
+41;164;491;Estádio Olímpico;15.0
+41;164;492;Centro Histórico de Serravalle;0.0
+42;165;493;Fortaleza de Kalemegdan;0.0
+42;165;494;Templo de S. Sava;0.0
+42;165;495;Rua Knez Mihailova;0.0
+42;166;496;Fortaleza de Petrovaradin;0.0
+42;166;497;Praça da Liberdade;0.0
+42;166;498;Parque Dunavski;0.0
+42;167;499;Fortaleza de Niš;0.0
+42;167;500;Torre das Caveiras;3.0
+42;167;501;Mediana (Sítio Romano);5.0
+42;168;502;Museu Memorial de Outubro;0.0
+42;168;503;Aquário de Kragujevac;3.0
+42;168;504;Catedral de Kragujevac;0.0
+43;169;505;Museu Vasa;15.0
+43;169;506;Gamla Stan (Cidade Velha);0.0
+43;169;507;Palácio Real de Estocolmo;16.0
+43;170;508;Liseberg (Parque);40.0
+43;170;509;Arquipélago de Gotemburgo;15.0
+43;170;510;Museu de Arte de Gotemburgo;6.0
+43;171;511;Turning Torso;0.0
+43;171;512;Ponte de Øresund;50.0
+43;171;513;Castelo de Malmö;5.0
+43;172;514;Catedral de Uppsala;0.0
+43;172;515;Castelo de Uppsala;4.0
+43;172;516;Linnaeus Garden;8.0
+44;173;517;Torre do Relógio (Zytglogge);4.0
+44;173;518;Fosso dos Ursos;0.0
+44;173;519;Palácio Federal;0.0
+44;174;520;Lago de Zurique;0.0
+44;174;521;Igreja Grossmünster;5.0
+44;174;522;Bahnhofstrasse;0.0
+44;175;523;Jet d'Eau;0.0
+44;175;524;Palácio das Nações;15.0
+44;175;525;Catedral de S. Pedro;0.0
+44;176;526;Catedral de Basileia;0.0
+44;176;527;Câmara Municipal (Rathaus);0.0
+44;176;528;Museu de Arte (Kunstmuseum);15.0
+45;177;529;Catedral de Santa Sofia;5.0
+45;177;530;Portas Douradas de Kiev;2.0
+45;177;531;Museu Chernobyl;5.0
+45;178;532;Praça Rynok;0.0
+45;178;533;Ópera de Lviv;10.0
+45;178;534;Catedral Arménia;0.0
+45;179;535;Escadaria Potemkin;0.0
+45;179;536;Teatro de Ópera de Odessa;12.0
+45;179;537;Deribasivska Street;0.0
+45;180;538;Praça da Liberdade;0.0
+45;180;539;Parque Gorky;10.0
+45;180;540;Catedral de Annunciation;0.0
+46;181;541;Basílica de S. Pedro;0.0
+46;181;542;Museus Vaticanos;17.0
+46;181;543;Capela Sistina;0.0
+46;182;544;Passeio pelos Jardins;20.0
+46;182;545;Gruta de Lourdes;0.0
+46;182;546;Torre de S. João;0.0
+46;183;547;Cúpula da Basílica;8.0
+46;183;548;Necrópole Vaticana;13.0
+46;183;549;Tesouro de S. Pedro;5.0
+46;184;550;Museu Pio-Clementino;0.0
+46;184;551;Galeria dos Mapas;0.0
+46;184;552;Pátio da Pinha;0.0
