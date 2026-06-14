@@ -18,10 +18,11 @@
 
 class Viagem : public Data, public Numero_reserva_modelo, public Pagamento, public Titulo_notas_modelo, public AltEstadosModel {
 private:
-    Data data;
 
 public:
     Viagem();
+    void carregarDadosDoCatalogo(double custoCalculado);
+    void definirDataViagem(const Data& novaData);
     void print() const;
     bool gravarFicheiro() const;
 

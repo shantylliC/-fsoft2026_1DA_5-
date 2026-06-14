@@ -13,6 +13,8 @@ class AtividadeModel : public LocalidadeModel {
 protected:
     int cidadeAssociada;
     double precoTicket;
+    int diaAgendado;
+    std::string horario;
 
 public:
     AtividadeModel();
@@ -26,6 +28,13 @@ public:
 
     // Lógica pura de leitura
     void carregarDeLinha(std::string linha) override;
+    void definirAgendamento (int dia, const std::string& hora);
+    int obterDiaAgendado() const;
+    std::string obterHoraAgendada() const;
+    int obterMinutosDoDia() const;
+
+    void definirHorario(const std::string& h);
+    std::string obterHorario() const;
 };
 
 

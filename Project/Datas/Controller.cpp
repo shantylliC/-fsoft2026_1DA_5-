@@ -9,10 +9,11 @@ Data Controller::obterDataValidada() {
 
             Data viagem(dados.diaC, dados.mesC, dados.anoC, dados.diaS, dados.mesS, dados.anoS);
 
-            while (interfaceUsuario.perguntarMaisHorarios()) {
+            /*while (interfaceUsuario.perguntarMaisHorarios()) {
                 std::string hor = interfaceUsuario.pedirHorario();
                 viagem.addHorario(hor);
             }
+            */
 
             Calendario ch = viagem.getChegada();
             Calendario sa = viagem.getSaida();

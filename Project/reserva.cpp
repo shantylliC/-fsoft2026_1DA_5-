@@ -6,6 +6,7 @@
 #include <string>
 #include <fstream>
 #include "reserva.h"
+#include "Financeiro.h"
 #include "alt_estados/Modelo/alt_estados_modelo.h"
 #include "alt_estados/Controlador/alt_estados_controller.h"
 #include "alt_estados/View/alt_estados_view.h"
@@ -19,7 +20,7 @@
 #include "data.h"
 
 
-Viagem::Viagem() : data() {
+Viagem::Viagem() {
 }
 
 void Viagem::print() const {
@@ -30,20 +31,21 @@ void Viagem::print() const {
     std::cout << "Notas:            " << this->notasViagem << "\n";
     std::cout << "Método pagamento: " << (int)this->metodoPagamento << "\n";
     std::cout << "Nº reserva:       " << this->numeroReserva << "\n";
-    Calendario chegada = this->data.getChegada();
-    Calendario saida = this->data.getSaida();
+    Calendario chegada = this->getChegada();
+    Calendario saida = this->getSaida();
     std::cout << "inicio da viagem  " << chegada.dia << "/" << chegada.mes << "/" << chegada.ano << "\n";
     std::cout << "termino da viagem:    " << saida.dia << "/" << saida.mes << "/" << saida.ano << "\n";
-    std::cout << "Duracao:  " << this->data.getNumeroDias() << " dias\n";
+    std::cout << "Duracao:  " << this->getNumeroDias() << " dias\n";
 
-    for (const std::string& h : this->data.getHorarios()) {
+    for (const std::string& h : this->getHorarios()) {
+
         std::cout << " -> " << h << "\n";
     }
 }
 
 bool Viagem::gravarFicheiro() const {
-    Calendario chegada = this->data.getChegada();
-    Calendario saida = this->data.getSaida();
+    Calendario chegada = this->getChegada();
+    Calendario saida = this->getSaida();
 
     std::ofstream ficheiro("viagens.txt", std::ios::app);
     if (!ficheiro.is_open()) {
@@ -77,9 +79,8 @@ bool Viagem::gravarFicheiro() const {
         << saida.dia << "/"
         << saida.mes << "/"
         << saida.ano << "\n";
-    ficheiro << "Duracao:          " << this->data.getNumeroDias() << " dias\n";
-
-    std::vector<std::string> horarios = this->data.getHorarios();
+    ficheiro << "Duracao:          " << this->getNumeroDias() << " dias\n";
+    std::vector<std::string> horarios = this->getHorarios();
     if (!horarios.empty()) {
         ficheiro << "Atividades:\n";
         for (const std::string& h : horarios) {
@@ -118,4 +119,17 @@ void Viagem::mostrarNumeroReserva() {
 void Viagem::estadoConfirmar() {
     // Executa a função original do grupo que muda o estado para 1 (Confirmada)
     this->confirmar();
+}
+void Viagem::carregarDadosDoCatalogo(double custoCalculado) {
+    // A própria classe Viagem vai atualizar as suas variáveis privadas
+    // indo buscar os valores reais calculados pelo módulo de catálogo/financeiro
+    this->custoTotal = custoCalculado;
+    this->metodoPagamento = static_cast<int>(Financeiro::obterMetodoSelecionado());
+    this->titulo = "Plano de Viagem Automatizado";
+    this->setNotasViagem ("Gerada com base nas escolhas efetuadas no catálogo.");
+}
+void Viagem::definirDataViagem(const Data& novaData) {
+    // Esta linha faz um "cast" seguro para a classe base 'Data' e copia todas
+    // as variáveis de calendário e a duração já calculada de uma só vez!
+    static_cast<Data&>(*this) = novaData;
 }

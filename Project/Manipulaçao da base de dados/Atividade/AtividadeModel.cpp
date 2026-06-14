@@ -71,3 +71,34 @@ void AtividadeModel::carregarDeLinha(std::string linha) {
         throw ErroFormatacaoFicheiroException("Erro: Numero grande demais encontrado nos dados da Atividade.");
     }
 }
+void AtividadeModel::definirHorario(const std::string& h) {
+    this->horario = h;
+}
+
+std::string AtividadeModel::obterHorario() const {
+    return this->horario;
+}
+void AtividadeModel::definirAgendamento(int dia, const std::string& hora) {
+    this->diaAgendado = dia;
+    this->horario = hora; // reaproveita o campo 'horario' que o teu grupo já tinha
+}
+
+int AtividadeModel::obterDiaAgendado() const {
+    return this->diaAgendado;
+}
+
+std::string AtividadeModel::obterHoraAgendada() const {
+    return this->horario;
+}
+
+int AtividadeModel::obterMinutosDoDia() const {
+    size_t pos = this->horario.find(':');
+    if (pos == std::string::npos) return -1;
+    try {
+        int h = std::stoi(this->horario.substr(0, pos));
+        int m = std::stoi(this->horario.substr(pos + 1));
+        return (h * 60) + m; // Converte ex: "14:30" em 870 minutos
+    } catch (...) {
+        return -1;
+    }
+}

@@ -5,8 +5,6 @@
 #ifndef PROJETOVIAGENS_ROTEIROCONTROLLER_H
 #define PROJETOVIAGENS_ROTEIROCONTROLLER_H
 
-
-
 #include "RoteiroModel.h"
 #include "RoteiroView.h"
 #include "Financeiro.h"
@@ -20,7 +18,7 @@ private:
 
 public:
     RoteiroController();
-
+    double obterPrecoFinalComIVA() const;
     void registarEscolha(LocalidadeModel* localidadeSelecionada);
     void esvaziarRoteiro();
     void mostrarResumo();
@@ -28,6 +26,8 @@ public:
     void definirDatas(Data novasDatas);
 
     void alterarMetodoPagamento();
+
+    void carregarEscolhaSessao(LocalidadeModel* localidadeSelecionada, int dia, const std::string& hora);
 };
 
 

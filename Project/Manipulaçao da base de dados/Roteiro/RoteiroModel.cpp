@@ -64,8 +64,8 @@ bool RoteiroModel::gravarFicheiroReserva(int numeroReserva,
     ficheiroReserva << "Custo total (IVA):" << totalFinal << " EUR\n";
     ficheiroReserva << "Metodo pagamento: " << Financeiro::obterMetodoPagamentoComoString() << "\n";
 
-    ficheiroReserva << "Data de chegada:  " << dataChegada << "\n";
-    ficheiroReserva << "Data de Saida:    " << dataSaida << "\n";
+    ficheiroReserva << "Data de inicio da viagem:  " << dataChegada << "\n";
+    ficheiroReserva << "Data de termino da viagem:    " << dataSaida << "\n";
     ficheiroReserva << "Duracao:          " << duracao << " dias\n";
 
     // (O bloco antigo "Atividades dinâmicas" que ficava aqui no fim foi removido!)
