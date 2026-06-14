@@ -91,4 +91,31 @@ bool Viagem::gravarFicheiro() const {
     ficheiro.close();
     std::cout << "Viagem gravada em 'viagens.txt' com sucesso!\n";
     return true;
+
+}
+
+bool Viagem::mudarTitulo() {
+    std::string novo;
+    std::getline(std::cin, novo);
+
+    // Executa estritamente a validação original do grupo (tamanho > 2 e < 20)
+    return this->setTitulo(novo);
+}
+
+bool Viagem::mudarNotasViagem() {
+    std::string novas;
+    std::getline(std::cin, novas);
+
+    // Executa estritamente a validação original do grupo (tamanho > 2 e < 500)
+    return this->setNotasViagem(novas);
+}
+
+void Viagem::mostrarNumeroReserva() {
+    // Reutiliza o método original do grupo para obter o número da reserva
+    std::cout << "Numero de reserva: " << this->getNumeroReserva() << "\n";
+}
+
+void Viagem::estadoConfirmar() {
+    // Executa a função original do grupo que muda o estado para 1 (Confirmada)
+    this->confirmar();
 }

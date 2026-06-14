@@ -16,7 +16,7 @@
 #include "pagamento.h"
 #include "data.h"
 
-class Viagem : public Data,public Numero_reserva_modelo, public Pagamento, public Titulo_notas_modelo {
+class Viagem : public Data, public Numero_reserva_modelo, public Pagamento, public Titulo_notas_modelo, public AltEstadosModel {
 private:
     Data data;
 
@@ -24,5 +24,10 @@ public:
     Viagem();
     void print() const;
     bool gravarFicheiro() const;
+
+    bool mudarTitulo();
+    bool mudarNotasViagem();
+    void mostrarNumeroReserva();
+    void estadoConfirmar();
 };
 #endif //FSOFT2026_1DA_5_VIAGEM_H

@@ -1,109 +1,156 @@
 #include <iostream>
 #include <string>
+#include <limits>
 #include <windows.h>
-#include "Data.h"
-#include "numero_de_reserva/Modelo/n_reserva_modelo.h"
-#include "numero_de_reserva/View/n_reserva_view.h"
-#include "numero_de_reserva/Controlador/n_reserva_controlador.h"
-#include "titulo_notas/Modelo/titulo_notas_modelo.h"
-#include "titulo_notas/View/titulo_notas_view.h"
-#include "titulo_notas/Controlador/titulo_notas_controlador.h"
-#include "alt_estados/Modelo/alt_estados_modelo.h"
-#include "alt_estados/View/alt_estados_view.h"
-#include "alt_estados/Controlador/alt_estados_controller.h"
+
+// 1. Módulo de Autenticação (Organizador + Viajantes)
+#include "organizador/AutenticacaoController/AutenticacaoController.h"
+#include "organizador/Pessoa/Pessoa.h"
+
+// 2. Módulo de Validação de Datas
+#include "Controller.h"
+#include "data.h"
+
+// 3. Módulo de Catálogo e Roteiro (Países, Cidades, Atividades)
+#include "Manipulaçao da base de dados/Repositorio Catalogo/RepositorioCatalogo.h"
+#include "Manipulaçao da base de dados/Roteiro/RoteiroController.h"
+#include "Manipulaçao da base de dados/Exceçoes/Excecoes.h"
+
+// 4. Módulo de Reserva e Pagamento Final
+#include "reserva.h"
 
 int main() {
+    // Configurar a consola do Windows para ler acentos portugueses corretamente
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
+    // ====================================================
+    // PASSO 1: LOGIN / REGISTO DO ORGANIZADOR + VIAJANTES
+    // ====================================================
+    AutenticacaoController fluxoLogin;
+    Organizador* utilizadorLogado = fluxoLogin.executar();
 
-    int diaC, mesC, anoC;
-    int diaS, mesS, anoS;
-
-
-    Viagem viagem;
-
-    std::cout << "=== NOVA VIAGEM ===\n";
-    std::cout << "Preencha os dados da viagem:\n\n";
-    viagem.mudarData();
-
-
-    std::cout << ">> Título:\n";
-    while (!viagem.mudarTitulo()) {
-        std::cout << "Vote a inserir o título:\n";
+    if (utilizadorLogado == nullptr) {
+        std::cout << "\nA encerrar o programa com segurança...\n";
+        return 0;
     }
 
-    std::cout << ">> Deseja inserir notas?\n";
-    char opcaonotas;
-    std::cout << "1. Sim (s)\n";
-    std::cout << "2. Não (n)\n";
-    std::cout << "Opção: ";
-    std::cin >> opcaonotas;
-    std::cin.ignore();
+    std::cout << "\n>>> Autenticação Efetuada com Sucesso! <<<\n";
+    std::cout << "Operador Conectado: " << utilizadorLogado->obterNome() << "\n\n";
 
-    switch (opcaonotas) {
-        case 's':
-        case 'S':
-        {
+    // ====================================================
+    // PASSO 2: SELECIONAR E VALIDAR DATAS DA VIAGEM
+    // ====================================================
 
-            while (!viagem.mudarNotasViagem()) {
-                std::cout << "Volte a inserir as notas:\n";
+    Controller controladorDatas;
+    Data datasValidadas = controladorDatas.obterDataValidada();
+
+    // ====================================================
+    // PASSO 3: SELECIONAR PAÍSES, CIDADES E ATIVIDADES
+    // ====================================================
+    std::cout << "\n====================================================\n";
+    std::cout << "          PASSO 3: EXPLORAR DESTINOS E ROTEIRO      \n";
+    std::cout << "====================================================\n";
+
+    RepositorioCatalogo catalogo;
+    try {
+        catalogo.carregarTudo();
+    }
+    catch (const std::exception& e) {
+        std::cout << "\n[ERRO DE CARREGAMENTO]: " << e.what() << std::endl;
+        std::cout << "Certifique-se de que os ficheiros BaseDados-*.txt estão na pasta certa.\n";
+        return 1;
+    }
+
+    RoteiroController meuRoteiro;
+    meuRoteiro.definirDatas(datasValidadas);
+
+    std::string comandoRoteiro = "";
+    std::cout << "Comandos: 'V' (Ver Roteiro), 'L' (Limpar), 'G' (Gravar Roteiro e Avançar)\n";
+
+    while (comandoRoteiro != "G" && comandoRoteiro != "g") {
+        try {
+            std::cout << "\n[Menu Catálogo]: ";
+            std::getline(std::cin, comandoRoteiro);
+
+            if (comandoRoteiro == "G" || comandoRoteiro == "g") {
+                meuRoteiro.finalizarEGravar();
             }
-        };
-            break;
-        case 'n':
-        case 'N':
-        {
-            break;
+            else if (comandoRoteiro == "V" || comandoRoteiro == "v") {
+                meuRoteiro.mostrarResumo();
+            }
+            else if (comandoRoteiro == "L" || comandoRoteiro == "l") {
+                meuRoteiro.esvaziarRoteiro();
+            }
+            else if (!comandoRoteiro.empty()) {
+                std::cout << "Comando inválido no catálogo.\n";
+            }
         }
-        default: std::cout << "Opcao invalida.\n";
+        catch (const std::exception& e) {
+            std::cout << "\n[Aviso Roteiro]: " << e.what() << std::endl;
+        }
     }
 
-    std::cout << "\n>> Custo da Viagem\n";
-    while (!viagem.mudarCustoTotal()) {
-        std::cout << "Vote a inserir o custo:\n";
-    }
+    // ====================================================
+    // PASSO 4: PARTE DE PAGAR E ENGENHARIA DA RESERVA
+    // ====================================================
+    std::cout << "\n====================================================\n";
+    std::cout << "          PASSO 4: GESTÃO FINANCEIRA E PAGAMENTO    \n";
+    std::cout << "====================================================\n";
 
-    std::cout << "\n>> Metodo de pagamento:\n";
-    while (!viagem.mudarMetodoPagamento()) {
-        std::cout << "Vote a inserir o metodo de pagamento:\n";
-    }
+    Viagem viagemFinal;
+    // Sincroniza as datas validadas no Passo 2 para a Ficha de Reserva Final
+    viagemFinal.setChegada(datasValidadas.getChegada().dia, datasValidadas.getChegada().mes, datasValidadas.getChegada().ano);
+    viagemFinal.setSaida(datasValidadas.getSaida().dia, datasValidadas.getSaida().mes, datasValidadas.getSaida().ano);
 
-    std::cout << "\n=== DADOS PREENCHIDOS ===\n";
-    viagem.print();
-    std::cout << "\nPode agora editar os dados no menu.\n";
-
-    bool sair = false;
-
-    while (!sair) {
-        int opcao;
-        std::cout << "\n--- MENU ---\n";
-        std::cout << "1. Ver viagem\n";
-        std::cout << "2. Mudar titulo\n";
-        std::cout << "3. Mudar notas\n";
-        std::cout << "4. Mudar custo total\n";
-        std::cout << "5. Mudar metodo de pagamento\n";
-        std::cout << "6. Mudar data de reserva\n";
-        std::cout << "7. Mostrar numero de reserva\n";
-        std::cout << "0. Sair\n";
+    bool terminarPrograma = false;
+    while (!terminarPrograma) {
+        int opcaoReserva;
+        std::cout << "\n--- MENU FINAL DE RESERVA & PAGAMENTO ---\n";
+        std::cout << "1. Visualizar Ficha Completa da Viagem\n";
+        std::cout << "2. Modificar Título da Viagem\n";
+        std::cout << "3. Modificar Notas Auxiliares\n";
+        std::cout << "4. Ajustar Custo Total Manualmente\n";
+        std::cout << "5. Configurar Método de Pagamento / Pagar\n";
+        std::cout << "6. Reajustar Datas de Reserva\n";
+        std::cout << "7. Exibir Identificador Único da Reserva\n";
+        std::cout << "0. Confirmar, Gravar e Sair do Sistema\n";
+        std::cout << "-----------------------------------------\n";
         std::cout << "Opção: ";
-        std::cin >> opcao;
-        std::cin.ignore();
 
-        switch (opcao) {
-            case 1: viagem.print();                                             break;
-            case 2: viagem.mudarTitulo();                                       break;
-            case 3: viagem.mudarNotasViagem();                                  break;
-            case 4: viagem.mudarCustoTotal();                                   break;
-            case 5: viagem.mudarMetodoPagamento();                              break;
-            case 6: viagem.mudarData();                                         break;
-            case 7: viagem.mostrarNumeroReserva();                              break;
-            case 0: sair = true;                                                break;
-            default: std::cout << "Opcao invalida.\n";
+        if (!(std::cin >> opcaoReserva)) {
+            std::cin.clear();
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            std::cout << "Opção Inválida!\n";
+            continue;
+        }
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+        switch (opcaoReserva) {
+            case 1: viagemFinal.print();                break;
+            case 2: {
+                std::cout << ">> Novo Título:\n";
+                while (!viagemFinal.mudarTitulo());
+                break;
+            }
+            case 3: {
+                std::cout << ">> Novas Notas:\n";
+                while (!viagemFinal.mudarNotasViagem());
+                break;
+            }
+            case 4: viagemFinal.mudarCustoTotal();       break;
+            case 5: viagemFinal.mudarMetodoPagamento();  break;
+            case 6: viagemFinal.mudarData();             break;
+            case 7: viagemFinal.mostrarNumeroReserva();  break;
+            case 0:
+                viagemFinal.estadoConfirmar(); // Atualiza o estado para "Confirmada" antes de fechar
+                viagemFinal.gravarFicheiro();  // Grava a persistência final no txt
+                terminarPrograma = true;
+                std::cout << "\nReserva processada com sucesso. Ficheiros atualizados! Boa viagem!\n";
+                break;
+            default:
+                std::cout << "Opção inválida.\n";
         }
     }
 
-    viagem.estadoConfirmar();
-    viagem.gravarFicheiro();
-    std::cout << "A sair...\n";
     return 0;
 }
