@@ -144,7 +144,7 @@ int LoginView::perguntarVerDados() {
 }
 
 int LoginView::perguntarCriarNovaViagem() {
-    return lerInteiro("\nCriar nova viagem? (1 sim / 0 nao): ");
+    return lerInteiro("\nDeseja remover totalmente os viajantes anteriores e adicionar novos viajantes? (1 sim / 0 nao): ");
 }
 
 void LoginView::mostrarMensagem(const std::string& mensagem) {

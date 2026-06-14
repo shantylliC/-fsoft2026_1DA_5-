@@ -31,15 +31,15 @@ void Data::atualizarNumeroDias() {
 }
 
 Data::Data(int diaC, int mesC, int anoC, int diaS, int mesS, int anoS) {
-    if (!validarData(diaC, mesC, anoC)) throw DataInvalidaException("Erro: Data de chegada invalida!");
-    if (!validarData(diaS, mesS, anoS)) throw DataInvalidaException("Erro: Data de saida invalida!");
+    if (!validarData(diaC, mesC, anoC)) throw DataInvalidaException("Erro: Data de inicio da viagem invalida!");
+    if (!validarData(diaS, mesS, anoS)) throw DataInvalidaException("Erro: Data de termino da viagem invalida!");
 
     chegada = {diaC, mesC, anoC};
     saida = {diaS, mesS, anoS};
     
     atualizarNumeroDias();
     
-    if (numeroDias < 0) throw DataInvalidaException("Erro: A data de saida nao pode ser anterior a data de chegada!");
+    if (numeroDias < 0) throw DataInvalidaException("Erro: A data de termino da viagem nao pode ser anterior a data de inicio da viagem!");
 }
 
 Calendario Data::getChegada() const { return chegada; }
@@ -48,17 +48,17 @@ int Data::getNumeroDias() const { return numeroDias; }
 std::vector<std::string> Data::getHorarios() const { return horarios; }
 
 void Data::setChegada(int d, int m, int a) {
-    if (!validarData(d, m, a)) throw DataInvalidaException("Erro: Nova data de chegada invalida!");
+    if (!validarData(d, m, a)) throw DataInvalidaException("Erro: Nova data de inicio da viagem invalida!");
     chegada = {d, m, a};
     atualizarNumeroDias();
-    if (numeroDias < 0) throw DataInvalidaException("Erro: A data de saida nao pode ser anterior a data de chegada!");
+    if (numeroDias < 0) throw DataInvalidaException("Erro: A data de termino da viagem nao pode ser anterior a data de inicio da viagem!");
 }
 
 void Data::setSaida(int d, int m, int a) {
-    if (!validarData(d, m, a)) throw DataInvalidaException("Erro: Nova data de saida invalida!");
+    if (!validarData(d, m, a)) throw DataInvalidaException("Erro: Nova data de termino da viagem invalida!");
     saida = {d, m, a};
     atualizarNumeroDias();
-    if (numeroDias < 0) throw DataInvalidaException("Erro: A data de saida nao pode ser anterior a data de chegada!");
+    if (numeroDias < 0) throw DataInvalidaException("Erro: A data de termino da viagem nao pode ser anterior a data de inicio da viagem!");
 }
 
 void Data::addHorario(std::string horario) { 
@@ -68,14 +68,14 @@ void Data::addHorario(std::string horario) {
 void Data::mudarData() {
     int diaC, mesC, anoC, diaS, mesS, anoS;
 
-    std::cout << "Introduza a data de chegada (dia mes ano):\n";
+    std::cout << "Introduza a data de inicio da viagem (dia mes ano):\n";
     if (!(std::cin >> diaC >> mesC >> anoC)) {
         std::cin.clear();
         std::cin.ignore(1000, '\n');
         std::cout << "Valor inválido\n";
         return;
     }
-    std::cout << "Introduza a data de saida (dia mes ano):\n";
+    std::cout << "Introduza a data de termino da viagem (dia mes ano):\n";
     if (!(std::cin >> diaS >> mesS >> anoS)) {
         std::cin.clear();
         std::cin.ignore(1000, '\n');
@@ -85,8 +85,8 @@ void Data::mudarData() {
     std::cin.ignore();
 
     try {
-        if (!validarData(diaC, mesC, anoC)) throw DataInvalidaException("Erro: Data de chegada invalida!");
-        if (!validarData(diaS, mesS, anoS)) throw DataInvalidaException("Erro: Data de saida invalida!");
+        if (!validarData(diaC, mesC, anoC)) throw DataInvalidaException("Erro: Data de inicio da viagem invalida!");
+        if (!validarData(diaS, mesS, anoS)) throw DataInvalidaException("Erro: Data de termino da viagem invalida!");
 
         chegada = {diaC, mesC, anoC};
         saida = {diaS, mesS, anoS};
@@ -94,7 +94,7 @@ void Data::mudarData() {
         atualizarNumeroDias();
 
         if (numeroDias <0) {
-            throw DataInvalidaException("Erro: A data de saida antes da de chegada!\n");
+            throw DataInvalidaException("Erro: A data de termino da viagem nao pode ser anterior a data de inicio da viagem!\n");
         }
         std::cout << "Data alterada com sucesso!\n";
     } catch (const DataInvalidaException& e) {

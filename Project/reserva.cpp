@@ -32,8 +32,8 @@ void Viagem::print() const {
     std::cout << "Nº reserva:       " << this->numeroReserva << "\n";
     Calendario chegada = this->data.getChegada();
     Calendario saida = this->data.getSaida();
-    std::cout << "Chegada:  " << chegada.dia << "/" << chegada.mes << "/" << chegada.ano << "\n";
-    std::cout << "Saida:    " << saida.dia << "/" << saida.mes << "/" << saida.ano << "\n";
+    std::cout << "inicio da viagem  " << chegada.dia << "/" << chegada.mes << "/" << chegada.ano << "\n";
+    std::cout << "termino da viagem:    " << saida.dia << "/" << saida.mes << "/" << saida.ano << "\n";
     std::cout << "Duracao:  " << this->data.getNumeroDias() << " dias\n";
 
     for (const std::string& h : this->data.getHorarios()) {
@@ -69,11 +69,11 @@ bool Viagem::gravarFicheiro() const {
     ficheiro << "Notas:            " << this->notasViagem << "\n";
     ficheiro << "Custo total:      " << this->custoTotal << "EUR\n";
     ficheiro << "Metodo pagamento: " << metodo_da_via << "\n";
-    ficheiro << "Data de chegada:  "
+    ficheiro << "Data de inicio da viagem:  "
         << chegada.dia << "/"
         << chegada.mes << "/"
         << chegada.ano << "\n";
-    ficheiro << "Data de saida:    "
+    ficheiro << "Data de termino da viagem:    "
         << saida.dia << "/"
         << saida.mes << "/"
         << saida.ano << "\n";

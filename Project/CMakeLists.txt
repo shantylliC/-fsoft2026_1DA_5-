@@ -101,3 +101,24 @@ add_executable(_fsoft2026_1DA_5_
         "Manipulaçao da base de dados/Financeiro/Financeiro.h"
         "Manipulaçao da base de dados/Exceçoes/Excecoes.h"
 )
+# =====================================================================
+# COPIAR AS BASES DE DADOS AUTOMATICAMENTE PARA A PASTA DE EXECUÇÃO
+# =====================================================================
+
+# Cenário A: Se os ficheiros estiverem na pasta "Manipulaçao da base de dados/Base de dados/"
+configure_file("Manipulaçao da base de dados/Base de dados/BaseDados-paises.txt" "BaseDados-paises.txt" COPYONLY OPTIONAL)
+configure_file("Manipulaçao da base de dados/Base de dados/BaseDados-cidades.txt" "BaseDados-cidades.txt" COPYONLY OPTIONAL)
+configure_file("Manipulaçao da base de dados/Base de dados/BaseDados-atividades.txt" "BaseDados-atividades.txt" COPYONLY OPTIONAL)
+
+# Cenário B: Se os ficheiros estiverem diretamente na pasta "Manipulaçao da base de dados/"
+configure_file("Manipulaçao da base de dados/BaseDados-paises.txt" "BaseDados-paises.txt" COPYONLY OPTIONAL)
+configure_file("Manipulaçao da base de dados/BaseDados-cidades.txt" "BaseDados-cidades.txt" COPYONLY OPTIONAL)
+configure_file("Manipulaçao da base de dados/BaseDados-atividades.txt" "BaseDados-atividades.txt" COPYONLY OPTIONAL)
+
+# Cenário C: Se os ficheiros estiverem soltos na raiz do projeto (Project)
+configure_file("BaseDados-paises.txt" "BaseDados-paises.txt" COPYONLY OPTIONAL)
+configure_file("BaseDados-cidades.txt" "BaseDados-cidades.txt" COPYONLY OPTIONAL)
+configure_file("BaseDados-atividades.txt" "BaseDados-atividades.txt" COPYONLY OPTIONAL)
+
+# Copiar também as credenciais de login que estão na raiz
+configure_file("dados_login.txt" "dados_login.txt" COPYONLY OPTIONAL)
